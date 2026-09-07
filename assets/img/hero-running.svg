@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Image placeholder">
+  <rect width="1600" height="900" fill="#111315"/>
+  <g stroke="rgba(246,245,241,0.14)" stroke-width="1">
+    <path d="M0  H1600 M0 180 H1600 M0 360 H1600 M0 540 H1600 M0 720 H1600"/>
+  </g>
+  <g fill="none" stroke="#d5ff3f" stroke-width="2">
+    <rect x="16" y="16" width="1568" height="868" rx="10" stroke-dasharray="10 8" opacity="0.55"/>
+  </g>
+  <text x="800" y="444" fill="#f6f5f1" font-family="Helvetica, Arial, sans-serif" font-size="61" font-weight="700" text-anchor="middle">hero-running</text>
+  <text x="800" y="517" fill="rgba(246,245,241,0.6)" font-family="Helvetica, Arial, sans-serif" font-size="40" text-anchor="middle">16:9 — replace with a licensed photo</text>
+</svg>

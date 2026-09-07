@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JUST RUN — ملابس الجري والتدريب</title>
+<meta name="description" content="JUST RUN علامة ملابس للجري والتدريب والحركة اليومية. خمس قطع أساسية مصمّمة لتبدأ وتواصل.">
+<meta property="og:title" content="JUST RUN — ملابس الجري والتدريب">
+<meta property="og:description" content="كل خطوة بداية أقوى. اكتشف ملابس الجري والتدريب من JUST RUN.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_JO">
+<meta property="og:image" content="assets/img/hero-running.svg">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tajawal:wght@400;500;800&display=swap">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip-link" href="#main">تخطَّ إلى المحتوى</a>
+
+<header class="header" data-header>
+  <div class="container header__bar">
+    <a class="logo" href="index.html" aria-label="JUST RUN — الصفحة الرئيسية">JUST<span>·</span>RUN</a>
+
+    <nav class="nav" aria-label="التنقل الرئيسي">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="index.html" data-nav-link>الرئيسية</a></li>
+        <li><a class="nav__link" href="shop.html" data-nav-link>المتجر</a></li>
+        <li><a class="nav__link" href="story.html" data-nav-link>قصتنا</a></li>
+        <li><a class="nav__link" href="contact.html" data-nav-link>تواصل معنا</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__actions">
+      <a class="icon-btn" href="cart.html" aria-label="السلة">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M6 7h12l-1 12H7L6 7Z" stroke-linejoin="round"/>
+          <path d="M9 7a3 3 0 0 1 6 0" stroke-linecap="round"/>
+        </svg>
+        <span class="cart-count" data-cart-count hidden>0</span>
+      </a>
+      <button class="icon-btn menu-toggle" type="button" data-menu-open aria-expanded="false" aria-controls="mobile-menu" aria-label="فتح القائمة">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="menu-panel" id="mobile-menu" data-menu hidden>
+  <div class="menu-panel__top">
+    <span class="logo">JUST<span>·</span>RUN</span>
+    <button class="icon-btn" type="button" data-menu-close aria-label="إغلاق القائمة">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+        <path d="M6 6l12 12M18 6L6 18"/>
+      </svg>
+    </button>
+  </div>
+  <nav aria-label="قائمة الموبايل">
+    <ul class="menu-panel__list">
+      <li><a class="menu-panel__link" href="index.html">الرئيسية</a></li>
+      <li><a class="menu-panel__link" href="shop.html">المتجر</a></li>
+      <li><a class="menu-panel__link" href="story.html">قصتنا</a></li>
+      <li><a class="menu-panel__link" href="contact.html">تواصل معنا</a></li>
+      <li><a class="menu-panel__link" href="cart.html">السلة</a></li>
+    </ul>
+  </nav>
+</div>
+
+<main id="main">
+
+  <!-- الواجهة الرئيسية -->
+  <section class="hero">
+    <div class="hero__media">
+      <picture>
+        <source media="(max-width: 47.99rem)" srcset="assets/img/hero-running-mobile.svg">
+        <img src="assets/img/hero-running.svg" alt="عدّاء أثناء الجري — مساحة الصورة الرئيسية" width="1600" height="900" fetchpriority="high" decoding="async">
+      </picture>
+    </div>
+    <div class="container hero__inner">
+      <span class="eyebrow">ملابس جري وتدريب</span>
+      <h1 class="hero__title">كل خطوة بداية أقوى.</h1>
+      <p class="hero__text">اكتشف ملابس الجري والتدريب من JUST RUN، وخذ خطوتك القادمة.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="shop.html">تسوّق المجموعة</a>
+        <a class="btn btn--ghost" href="story.html">اكتشف قصتنا</a>
+      </div>
+      <div class="hero__meta">
+        <span>خمس قطع أساسية</span>
+        <span>للجري والتدريب</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- المجموعات -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">المجموعات</span>
+          <h2 class="section-title">اختر حسب تمرينك.</h2>
+        </div>
+        <p class="section-note">ثلاث مجموعات تغطي الجري، التدريب، والقطع التي ترافقك يومياً.</p>
+      </div>
+      <div class="collection-grid" data-collections-grid></div>
+    </div>
+  </section>
+
+  <!-- منتجات مختارة -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">مختارات</span>
+          <h2 class="section-title">جاهز لخطوتك القادمة؟</h2>
+        </div>
+        <a class="link-arrow" href="shop.html">شوف كل المنتجات</a>
+      </div>
+      <div class="product-grid" data-featured-grid></div>
+    </div>
+  </section>
+
+  <!-- قصة العلامة -->
+  <section class="section on-dark">
+    <div class="track-lines" aria-hidden="true"></div>
+    <div class="container story">
+      <div class="story__media reveal">
+        <img src="assets/img/brand-story.svg" alt="مساحة صورة لقصة العلامة" width="1200" height="800" loading="lazy" decoding="async">
+      </div>
+      <div class="story__text reveal">
+        <span class="eyebrow">قصتنا</span>
+        <h2 class="section-title">مشوارك يبدأ بخطوة.</h2>
+        <p>في JUST RUN، نؤمن أن التقدم يبدأ بقرار بسيط: أن تتحرك. من أول جولة جري إلى التمرين الذي تلتزم به، نحتفي بكل خطوة تقرّبك من هدفك.</p>
+        <div>
+          <a class="btn btn--ghost" href="story.html">اقرأ القصة كاملة</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- البانر الختامي -->
+  <section class="section">
+    <div class="container">
+      <div class="banner reveal">
+        <div class="track-lines" aria-hidden="true"></div>
+        <h2 class="banner__title">خطوتك الجاية إلك.</h2>
+        <a class="btn btn--primary" href="shop.html">اكتشف المجموعة</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <span class="logo">JUST<span>·</span>RUN</span>
+        <p class="footer__tagline">ليس مطلوبًا أن تكون الأسرع؛ المهم أن تبدأ وتواصل.</p>
+      </div>
+      <div>
+        <h2 class="footer__title">تصفّح</h2>
+        <ul class="footer__list">
+          <li><a href="shop.html">المتجر</a></li>
+          <li><a href="story.html">قصتنا</a></li>
+          <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year">2026</span> JUST RUN</span>
+      <span>الموقع قيد التطوير</span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="assets/js/site.js" defer></script>
+<script src="assets/js/store.js" defer></script>
+</body>
+</html>

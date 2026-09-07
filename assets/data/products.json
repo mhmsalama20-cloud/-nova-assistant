@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "isSampleData": true,
+    "note": "بيانات تجريبية للتطوير فقط. استبدلها ببيانات منتجاتك الفعلية قبل النشر. الأسعار = null عمداً، لأنه لم تُعتمد أسعار بعد — الواجهة تعرض حالة (السعر قريباً) بدل رقم مُختلق.",
+    "currency": "JOD",
+    "currencyLabel": "د.أ"
+  },
+  "collections": [
+    {
+      "id": "running",
+      "title": "الجري",
+      "tagline": "قطع خفيفة للمسافات اليومية",
+      "image": "assets/img/collection-running.svg",
+      "imageAlt": "مساحة صورة لمجموعة الجري"
+    },
+    {
+      "id": "training",
+      "title": "التدريب",
+      "tagline": "لتمارين القوة وأيام النادي",
+      "image": "assets/img/collection-training.svg",
+      "imageAlt": "مساحة صورة لمجموعة التدريب"
+    },
+    {
+      "id": "essentials",
+      "title": "أساسيات الحركة",
+      "tagline": "القطع التي ترافقك كل يوم",
+      "image": "assets/img/collection-essentials.svg",
+      "imageAlt": "مساحة صورة لمجموعة أساسيات الحركة"
+    }
+  ],
+  "products": [
+    {
+      "id": "run-short",
+      "name": "شورت الجري",
+      "collection": "running",
+      "price": null,
+      "shortDescription": "شورت بقصّة مريحة للجري اليومي.",
+      "description": "شورت مصمّم للجري اليومي بقصّة تسمح بحرية الحركة، مع خصر مطاطي ورباط للضبط. القطعة رقم 001 من خط JUST RUN الأساسي.",
+      "sizes": ["S", "M", "L", "XL"],
+      "soldOutSizes": [],
+      "colors": [
+        { "name": "أسود فحمي", "hex": "#111315" },
+        { "name": "أبيض دافئ", "hex": "#f6f5f1" }
+      ],
+      "images": [
+        { "src": "assets/img/product-short.svg", "alt": "رسم تقني لشورت الجري من JUST RUN" }
+      ],
+      "featured": true
+    },
+    {
+      "id": "train-pant",
+      "name": "بنطلون التدريب",
+      "collection": "training",
+      "price": null,
+      "shortDescription": "بنطلون طويل بقصّة مستقيمة نحو الكاحل.",
+      "description": "بنطلون تدريب طويل بقصّة تضيق تدريجياً نحو الكاحل، مناسب للإحماء وأيام النادي والتنقل بعد التمرين. القطعة رقم 002 من الخط الأساسي.",
+      "sizes": ["S", "M", "L", "XL"],
+      "soldOutSizes": [],
+      "colors": [
+        { "name": "أسود فحمي", "hex": "#111315" }
+      ],
+      "images": [
+        { "src": "assets/img/product-pant.svg", "alt": "رسم تقني لبنطلون التدريب من JUST RUN" }
+      ],
+      "featured": true
+    },
+    {
+      "id": "train-hoodie",
+      "name": "هودي التدريب",
+      "collection": "training",
+      "price": null,
+      "shortDescription": "هودي بكم طويل لطبقة الإحماء.",
+      "description": "هودي بكم طويل وقبعة، يُلبس كطبقة قبل التمرين أو بعده. القطعة رقم 003 من الخط الأساسي.",
+      "sizes": ["S", "M", "L", "XL"],
+      "soldOutSizes": [],
+      "colors": [
+        { "name": "أسود فحمي", "hex": "#111315" },
+        { "name": "أبيض دافئ", "hex": "#f6f5f1" }
+      ],
+      "images": [
+        { "src": "assets/img/product-hoodie.svg", "alt": "رسم تقني لهودي التدريب من JUST RUN" }
+      ],
+      "featured": true
+    },
+    {
+      "id": "run-tee",
+      "name": "تيشيرت الجري",
+      "collection": "running",
+      "price": null,
+      "shortDescription": "تيشيرت بكم قصير للجري والتمرين.",
+      "description": "تيشيرت بكم قصير وقصّة مريحة، يناسب الجري والتمرين والاستخدام اليومي. القطعة رقم 004 من الخط الأساسي.",
+      "sizes": ["S", "M", "L", "XL"],
+      "soldOutSizes": [],
+      "colors": [
+        { "name": "أبيض دافئ", "hex": "#f6f5f1" },
+        { "name": "أسود فحمي", "hex": "#111315" }
+      ],
+      "images": [
+        { "src": "assets/img/product-tee.svg", "alt": "رسم تقني لتيشيرت الجري من JUST RUN" }
+      ],
+      "featured": true
+    },
+    {
+      "id": "essential-socks",
+      "name": "جرابات الجري",
+      "collection": "essentials",
+      "price": null,
+      "shortDescription": "جرابات بطول متوسط للتمرين اليومي.",
+      "description": "جرابات بطول متوسط تناسب الجري والتدريب. القطعة رقم 005 وآخر قطعة في الخط الأساسي.",
+      "sizes": ["مقاس موحّد"],
+      "soldOutSizes": [],
+      "colors": [
+        { "name": "أسود فحمي", "hex": "#111315" }
+      ],
+      "images": [
+        { "src": "assets/img/product-socks.svg", "alt": "رسم تقني لجرابات الجري من JUST RUN" }
+      ],
+      "featured": false
+    }
+  ]
+}

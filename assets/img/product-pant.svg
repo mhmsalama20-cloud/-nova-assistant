@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="pant — technical flat">
+  <rect width="800" height="1000" fill="#f6f5f1"/>
+  <rect x="1" y="1" width="798" height="998" fill="none" stroke="#e3e5df" stroke-width="2"/>
+  <g transform="translate(10,207) scale(6.5)" fill="none" stroke="#111315" stroke-width="2"
+     vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M32 10 H88 V26 L80 84 H66 L60 34 L54 84 H40 L32 26 Z"/>
+    <path d="M32 22 H88" stroke-dasharray="3 4"/>
+  </g>
+  <text x="40" y="70" fill="#62676b" font-family="Helvetica, Arial, sans-serif" font-size="26">pant — technical flat</text>
+  <text x="40" y="960" fill="#62676b" font-family="Helvetica, Arial, sans-serif" font-size="22">4:5 — replace with a real product photo</text>
+</svg>

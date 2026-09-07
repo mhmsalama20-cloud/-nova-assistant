@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تواصل معنا — JUST RUN</title>
+<meta name="description" content="قنوات التواصل مع JUST RUN.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tajawal:wght@400;500;800&display=swap">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip-link" href="#main">تخطَّ إلى المحتوى</a>
+
+<header class="header" data-header>
+  <div class="container header__bar">
+    <a class="logo" href="index.html" aria-label="JUST RUN — الصفحة الرئيسية">JUST<span>·</span>RUN</a>
+    <nav class="nav" aria-label="التنقل الرئيسي">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="index.html" data-nav-link>الرئيسية</a></li>
+        <li><a class="nav__link" href="shop.html" data-nav-link>المتجر</a></li>
+        <li><a class="nav__link" href="story.html" data-nav-link>قصتنا</a></li>
+        <li><a class="nav__link" href="contact.html" data-nav-link>تواصل معنا</a></li>
+      </ul>
+    </nav>
+    <div class="header__actions">
+      <a class="icon-btn" href="cart.html" aria-label="السلة">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M6 7h12l-1 12H7L6 7Z" stroke-linejoin="round"/>
+          <path d="M9 7a3 3 0 0 1 6 0" stroke-linecap="round"/>
+        </svg>
+        <span class="cart-count" data-cart-count hidden>0</span>
+      </a>
+      <button class="icon-btn menu-toggle" type="button" data-menu-open aria-expanded="false" aria-controls="mobile-menu" aria-label="فتح القائمة">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="menu-panel" id="mobile-menu" data-menu hidden>
+  <div class="menu-panel__top">
+    <span class="logo">JUST<span>·</span>RUN</span>
+    <button class="icon-btn" type="button" data-menu-close aria-label="إغلاق القائمة">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+        <path d="M6 6l12 12M18 6L6 18"/>
+      </svg>
+    </button>
+  </div>
+  <nav aria-label="قائمة الموبايل">
+    <ul class="menu-panel__list">
+      <li><a class="menu-panel__link" href="index.html">الرئيسية</a></li>
+      <li><a class="menu-panel__link" href="shop.html">المتجر</a></li>
+      <li><a class="menu-panel__link" href="story.html">قصتنا</a></li>
+      <li><a class="menu-panel__link" href="contact.html">تواصل معنا</a></li>
+      <li><a class="menu-panel__link" href="cart.html">السلة</a></li>
+    </ul>
+  </nav>
+</div>
+
+<main id="main">
+  <div class="page-head">
+    <div class="container">
+      <span class="eyebrow">تواصل معنا</span>
+      <h1 class="page-head__title">أي سؤال؟ احكِ معنا.</h1>
+      <p class="page-head__text">قنوات التواصل الرسمية للعلامة تُضاف هنا قبل الإطلاق.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <!--
+        ▼▼ مكان قنوات التواصل ▼▼
+        استبدل النص "قيد الإضافة" ببياناتك الحقيقية، مثل:
+        <a href="mailto:hello@example.com">hello@example.com</a>
+        <a href="https://instagram.com/USERNAME">@USERNAME</a>
+        <a href="https://wa.me/9627XXXXXXXX">واتساب</a>
+        لا تترك بيانات غير حقيقية على الموقع بعد النشر.
+      -->
+      <div class="info-grid">
+        <article class="info-card reveal">
+          <h3>البريد الإلكتروني</h3>
+          <p>قيد الإضافة — ضع بريد العلامة هنا.</p>
+        </article>
+        <article class="info-card reveal">
+          <h3>إنستغرام</h3>
+          <p>قيد الإضافة — ضع حساب العلامة هنا.</p>
+        </article>
+        <article class="info-card reveal">
+          <h3>واتساب</h3>
+          <p>قيد الإضافة — ضع رقم التواصل هنا.</p>
+        </article>
+      </div>
+
+      <p class="notice" style="margin-block-start:var(--space-6);max-inline-size:60ch">
+        لم نضع نموذج مراسلة على الموقع، لأن أي نموذج غير مربوط بخدمة حقيقية لن يوصل رسالتك فعلاً.
+        بعد ما تختار قناة التواصل (بريد، إنستغرام، أو واتساب)، نضيفها هنا كرابط شغّال.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <span class="logo">JUST<span>·</span>RUN</span>
+        <p class="footer__tagline">ليس مطلوبًا أن تكون الأسرع؛ المهم أن تبدأ وتواصل.</p>
+      </div>
+      <div>
+        <h2 class="footer__title">تصفّح</h2>
+        <ul class="footer__list">
+          <li><a href="shop.html">المتجر</a></li>
+          <li><a href="story.html">قصتنا</a></li>
+          <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year">2026</span> JUST RUN</span>
+      <span>الموقع قيد التطوير</span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>

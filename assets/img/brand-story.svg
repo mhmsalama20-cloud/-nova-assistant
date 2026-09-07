@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Image placeholder">
+  <rect width="1200" height="800" fill="#111315"/>
+  <g stroke="rgba(246,245,241,0.14)" stroke-width="1">
+    <path d="M0  H1200 M0 160 H1200 M0 320 H1200 M0 480 H1200 M0 640 H1200"/>
+  </g>
+  <g fill="none" stroke="#d5ff3f" stroke-width="2">
+    <rect x="16" y="16" width="1168" height="768" rx="10" stroke-dasharray="10 8" opacity="0.55"/>
+  </g>
+  <text x="600" y="394" fill="#f6f5f1" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="700" text-anchor="middle">brand-story</text>
+  <text x="600" y="452" fill="rgba(246,245,241,0.6)" font-family="Helvetica, Arial, sans-serif" font-size="30" text-anchor="middle">3:2 — replace with a licensed photo</text>
+</svg>
