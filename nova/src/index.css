@@ -1,0 +1,300 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+   Nova Console — token system
+   Palette:  ink #10131A · slate #1A1F29 · leaf #F2F3F6 · amber #E0932F
+             teal #3E9E8F · rose #C9566A
+   Neutrals are biased ~220deg (blue) so they sit under the sodium accent.
+   --------------------------------------------------------------------------- */
+
+@layer base {
+  :root {
+    /* shadcn contract — light */
+    --background: 225 18% 96%;
+    --foreground: 220 18% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 18% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 18% 10%;
+    --primary: 220 18% 14%;
+    --primary-foreground: 225 18% 97%;
+    --secondary: 223 17% 92%;
+    --secondary-foreground: 220 18% 14%;
+    --muted: 223 17% 92%;
+    --muted-foreground: 219 9% 45%;
+    --accent: 223 17% 92%;
+    --accent-foreground: 220 18% 14%;
+    --destructive: 350 52% 46%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 225 14% 89%;
+    --input: 225 14% 85%;
+    --ring: 34 74% 45%;
+    --radius: 0.375rem;
+
+    /* Nova additions */
+    --pane: 0 0% 100%;
+    --pane-sunk: 225 18% 96%;
+    --rail: 225 16% 94%;
+    --amber: 34 74% 44%;
+    --teal: 171 44% 33%;
+    --rose: 350 52% 46%;
+    --hairline: 225 14% 87%;
+    --shadow-pane: 0 1px 2px hsl(220 18% 10% / 0.05);
+    --code-bg: 225 20% 97%;
+    color-scheme: light;
+  }
+
+  /* Dark tokens serve all three viewer states: the host's explicit
+     data-theme stamp, the un-stamped OS preference, and our own toggle.
+     .nova-light is the escape hatch that lets the toggle win either way. */
+  :root[data-theme="dark"]:not(.nova-light),
+  .nova-dark {
+    /* shadcn contract — dark */
+    --background: 222 24% 8%;
+    --foreground: 220 14% 91%;
+    --card: 220 22% 13%;
+    --card-foreground: 220 14% 91%;
+    --popover: 220 22% 13%;
+    --popover-foreground: 220 14% 91%;
+    --primary: 220 14% 91%;
+    --primary-foreground: 222 24% 8%;
+    --secondary: 220 19% 18%;
+    --secondary-foreground: 220 14% 91%;
+    --muted: 220 19% 18%;
+    --muted-foreground: 219 9% 62%;
+    --accent: 220 19% 18%;
+    --accent-foreground: 220 14% 91%;
+    --destructive: 350 52% 56%;
+    --destructive-foreground: 222 24% 8%;
+    --border: 220 19% 18%;
+    --input: 220 19% 22%;
+    --ring: 34 74% 53%;
+
+    /* Nova additions */
+    --pane: 220 22% 11%;
+    --pane-sunk: 222 24% 7%;
+    --rail: 222 24% 9%;
+    --amber: 34 74% 58%;
+    --teal: 171 44% 52%;
+    --rose: 350 52% 62%;
+    --hairline: 220 19% 17%;
+    --shadow-pane: 0 1px 2px hsl(222 40% 3% / 0.5);
+    --code-bg: 222 24% 6%;
+    color-scheme: dark;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not(.nova-light):not([data-theme="light"]) {
+      /* shadcn contract — dark */
+      --background: 222 24% 8%;
+      --foreground: 220 14% 91%;
+      --card: 220 22% 13%;
+      --card-foreground: 220 14% 91%;
+      --popover: 220 22% 13%;
+      --popover-foreground: 220 14% 91%;
+      --primary: 220 14% 91%;
+      --primary-foreground: 222 24% 8%;
+      --secondary: 220 19% 18%;
+      --secondary-foreground: 220 14% 91%;
+      --muted: 220 19% 18%;
+      --muted-foreground: 219 9% 62%;
+      --accent: 220 19% 18%;
+      --accent-foreground: 220 14% 91%;
+      --destructive: 350 52% 56%;
+      --destructive-foreground: 222 24% 8%;
+      --border: 220 19% 18%;
+      --input: 220 19% 22%;
+      --ring: 34 74% 53%;
+
+      /* Nova additions */
+      --pane: 220 22% 11%;
+      --pane-sunk: 222 24% 7%;
+      --rail: 222 24% 9%;
+      --amber: 34 74% 58%;
+      --teal: 171 44% 52%;
+      --rose: 350 52% 62%;
+      --hairline: 220 19% 17%;
+      --shadow-pane: 0 1px 2px hsl(222 40% 3% / 0.5);
+      --code-bg: 222 24% 6%;
+      color-scheme: dark;
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system,
+      "Segoe UI", Roboto, sans-serif;
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+  }
+
+  ::selection {
+    background-color: hsl(var(--amber) / 0.28);
+  }
+
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: "Instrument Serif", ui-serif, Georgia, "Times New Roman", serif;
+    font-weight: 400;
+  }
+
+  .font-data {
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo,
+      Consolas, monospace;
+    font-variant-ligatures: none;
+  }
+
+  /* Uppercase instrument label — used for every panel heading. */
+  .label-instrument {
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: hsl(var(--muted-foreground));
+  }
+
+  .nova-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--muted-foreground) / 0.35) transparent;
+  }
+  .nova-scroll::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .nova-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .nova-scroll::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--muted-foreground) / 0.3);
+    border-radius: 99px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+  .nova-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(var(--muted-foreground) / 0.5);
+  }
+
+  /* Streaming caret on the message currently being written. */
+  .nova-caret::after {
+    content: "";
+    display: inline-block;
+    width: 0.5em;
+    height: 1.05em;
+    margin-left: 0.12em;
+    vertical-align: text-bottom;
+    background-color: hsl(var(--amber));
+    animation: nova-blink 1.05s steps(1) infinite;
+  }
+
+  @keyframes nova-blink {
+    0%,
+    50% {
+      opacity: 1;
+    }
+    51%,
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes nova-rise {
+    from {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .nova-rise {
+    animation: nova-rise 260ms cubic-bezier(0.22, 0.8, 0.3, 1) both;
+  }
+
+  @keyframes nova-pulse {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.35;
+    }
+  }
+
+  .nova-pulse {
+    animation: nova-pulse 1.4s ease-in-out infinite;
+  }
+
+  .prose-nova p {
+    margin: 0 0 0.85em;
+  }
+  .prose-nova p:last-child {
+    margin-bottom: 0;
+  }
+  .prose-nova ul {
+    margin: 0 0 0.85em;
+    padding-left: 1.1em;
+    list-style: none;
+  }
+  .prose-nova li {
+    position: relative;
+    margin-bottom: 0.32em;
+  }
+  .prose-nova li::before {
+    content: "";
+    position: absolute;
+    left: -0.95em;
+    top: 0.62em;
+    width: 4px;
+    height: 1px;
+    background-color: hsl(var(--muted-foreground));
+  }
+  .prose-nova code {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 0.875em;
+    background-color: hsl(var(--muted));
+    padding: 0.1em 0.34em;
+    border-radius: 3px;
+  }
+  .prose-nova strong {
+    font-weight: 600;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .nova-caret::after {
+    opacity: 1;
+  }
+}
