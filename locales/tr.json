@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "title": "Rattebha — Q30 Aimo Mini Taşınabilir Etiket Yazıcısı",
+    "description": "Telefonundan çalışan, mürekkep istemeyen 15 mm'lik termal etiket yazıcısı. Mutfağını, çekmecelerini, ders malzemelerini ve sipariş paketlerini saniyeler içinde düzene sok.",
+    "ogImageAlt": "Bir telefonun ve etiketlenmiş mutfak kavanozlarının yanında duran Q30 Aimo Mini yazıcı"
+  },
+  "brand": {
+    "name": "Rattebha",
+    "latin": "Rattebha",
+    "tagline": "Yazdır. Yapıştır. Düzenle.",
+    "productName": "Q30 Aimo Mini Portable Thermal Label Printer",
+    "productTagline": "15 mm taşınabilir termal etiket yazıcısı"
+  },
+  "announcement": {
+    "shipping": "Hızlı kargo",
+    "payment": "Güvenli ödeme",
+    "warranty": "Değişim garantisi"
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "features": "Özellikler",
+    "how": "Nasıl kullanılır",
+    "offers": "Kampanyalar",
+    "faq": "Sık sorulanlar",
+    "order": "Hemen sipariş ver",
+    "language": "Dil",
+    "changeLanguage": "Dili değiştir",
+    "currentLanguage": "Geçerli dil",
+    "cart": "Sepet",
+    "cartWithCount": "Sepet, {count} ürün",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "skipToContent": "Ana içeriğe geç",
+    "backToTop": "Yukarı dön"
+  },
+  "hero": {
+    "badge": "Lansmana özel indirim — sınırlı süre",
+    "title": "Her şey yerli yerinde, adı da net",
+    "description": "Evini, ders düzenini ve küçük işini saniyeler içinde toparlamanı sağlayan cebe sığan etiket yazıcısı — doğrudan telefonundan, mürekkep olmadan.",
+    "primaryCta": "Hemen sipariş ver",
+    "secondaryCta": "Nasıl çalıştığını izle",
+    "highlights": {
+      "noInk": "Mürekkep gerekmez",
+      "phone": "Telefondan çalışır",
+      "width": "15 mm etiket"
+    },
+    "priceFrom": "{price} fiyatından başlar"
+  },
+  "gallery": {
+    "title": "Yakından bak",
+    "description": "Yazıcının boyutunu, içindeki ruloyu ve yapıştırıldıktan sonra etiketlerin nasıl durduğunu gör.",
+    "zoomIn": "Görseli büyüt",
+    "zoomOut": "Büyütmeyi kapat",
+    "previous": "Önceki görsel",
+    "next": "Sonraki görsel",
+    "thumbnailLabel": "{index}. görseli göster"
+  },
+  "how": {
+    "title": "Nasıl çalışır?",
+    "description": "Üç adım. Bilgisayara da, deneyime de gerek yok.",
+    "stepLabel": "{number}. adım",
+    "steps": {
+      "one": {
+        "title": "Etiketini telefonundan yaz",
+        "description": "Uyumlu uygulamayı aç; ismi, tarihi ya da aklında tutmak istediğin ayrıntıyı yaz."
+      },
+      "two": {
+        "title": "Sana uygun tasarımı seç",
+        "description": "Yazı boyutunu, çerçeveyi ve hizalamayı istediğin görünümü yakalayana kadar ayarla."
+      },
+      "three": {
+        "title": "Yazdır, yapıştır ve düzenle",
+        "description": "Yazdır'a bas, etiketi kavanoza ya da çekmeceye yapıştır ve sıradakine geç."
+      }
+    }
+  },
+  "features": {
+    "title": "Boyutu küçük, faydası büyük",
+    "description": "Dağınıklığı uzaktan okunabilen etiketlere çevirmek için gereken her şey.",
+    "items": {
+      "noInk": {
+        "title": "Termal baskı — mürekkep almana gerek yok",
+        "description": "Mürekkep yerine ısıyla çalışır; kartuş da yok, satın aldıktan sonra ek masraf da."
+      },
+      "connection": {
+        "title": "Telefonla kolay eşleşir",
+        "description": "iOS ve Android için sunulan uyumlu uygulama üzerinden birkaç adımda bağlanır."
+      },
+      "portable": {
+        "title": "Hafif, çantanda taşıyabilirsin",
+        "description": "Ev, okul ve iş arasında hiç düşünmeden yanında götürebileceğin kadar küçük."
+      },
+      "versatile": {
+        "title": "Ev, okul ve küçük işletmeler için",
+        "description": "Tek bir basit alışkanlık; mutfağa, çekmeceye, ders notlarına ve sipariş paketlerine yarar."
+      },
+      "fast": {
+        "title": "Saniyeler içinde düzenli etiketler",
+        "description": "Fikirden yapıştırılmış etikete: yazarsın, yazdırırsın, biter."
+      },
+      "width": {
+        "title": "15 mm etiket rulosu kullanır",
+        "description": "Kavanozlar, çekmeceler, dosyalar ve kablolar için pratik bir genişlik."
+      }
+    },
+    "printLanguagesNote": {
+      "title": "Baskı dilleri hakkında not",
+      "body": "Buradaki diller yalnızca bu mağazanın arayüzü için geçerlidir. Yazıcının uygulamasının hangi dilleri basabildiğini henüz doğrulamadık; gerçek bir numuneyle test ettikten sonra bu bilgiyi güncelleyeceğiz."
+    }
+  },
+  "useCases": {
+    "title": "Tek yazıcı, sonu gelmeyen kullanım",
+    "description": "Net bir isme ihtiyaç duyulan her yerde bir etikete yer vardır.",
+    "items": {
+      "kitchen": {
+        "title": "Mutfak",
+        "description": "Baharatlar, bakliyat ve saklama kapları; hepsi net bir isim ve dolum tarihiyle."
+      },
+      "kids": {
+        "title": "Çocuk odası",
+        "description": "Oyuncak kutuları ve çekmeceler; renk ve sembollerle henüz okumayan bir çocuğun bile anlayacağı şekilde."
+      },
+      "study": {
+        "title": "Ders ve okul",
+        "description": "Defterler, dosyalar ve kalemlikler derse ve döneme göre düzenli."
+      },
+      "office": {
+        "title": "Ofis",
+        "description": "Kablolar, anahtarlar ve dosya çekmeceleri; aramakla vakit kaybetmeyi bitiren isimlerle."
+      },
+      "packaging": {
+        "title": "Sipariş paketleme",
+        "description": "Her siparişteki temiz bir etiket, ev işine profesyonel bir bitiş kazandırır."
+      },
+      "gifts": {
+        "title": "Hediyeler",
+        "description": "Alıcının adının yazdığı küçük kartlar ya da hediye kutusuna güzel bir not."
+      }
+    }
+  },
+  "offers": {
+    "title": "Sana uygun kampanyayı seç",
+    "description": "Fiyatlara yazıcı ve deneme etiket rulosu dahildir. Adedi seç ve sepete ekle.",
+    "quantity": "Adet",
+    "increase": "Adedi artır",
+    "decrease": "Adedi azalt",
+    "addToCart": "Sepete ekle",
+    "added": "Eklendi",
+    "outOfStock": "Şu anda stokta yok",
+    "outOfStockNote": "Bu kampanya şu anda mevcut değil. Diğer kampanyayı deneyebilir ya da bize yazabilirsin.",
+    "selected": "Seçilen kampanya",
+    "select": "Bu kampanyayı seç",
+    "saveAmount": "{amount} kazan",
+    "instead": "{amount} yerine",
+    "perPrinter": "Yazıcı başına {price}",
+    "items": {
+      "single": {
+        "name": "Tek yazıcı",
+        "description": "Yazıcı ve deneme etiket rulosu dahildir",
+        "note": "Başlangıç için ideal"
+      },
+      "bundle": {
+        "name": "1+1 kampanya",
+        "description": "İki yazıcı ve iki deneme etiket rulosu",
+        "note": "Biri sana, biri sevdiğine",
+        "badge": "En çok tercih edilen"
+      }
+    }
+  },
+  "beforeAfter": {
+    "title": "Farkı gör",
+    "description": "Aynı raflar, aynı çekmeceler — tek fark, gerçekten okunabilen bir etiket.",
+    "beforeLabel": "Rattebha'dan önce",
+    "beforeText": "İçinde ne olduğu belirsiz kaplar, dağınık çekmeceler ve sıradan paketlenmiş siparişler.",
+    "afterLabel": "Rattebha'dan sonra",
+    "afterText": "Daha net bir düzen, daha güzel bir görünüm ve işine profesyonel bir hava katan paketleme."
+  },
+  "reviews": {
+    "title": "Müşteri yorumları",
+    "description": "Yazıcıyı satın alan müşterilerin gerçek deneyimleri burada yer alacak.",
+    "sampleBadge": "Örnek veri — yalnızca geliştirme",
+    "sampleNotice": "Bu kartlar yalnızca tasarımı göstermek için konulmuş örneklerdir ve yayımlanan mağazada görünmez. src/data/reviews.ts dosyasında gerçek yorumlarla değiştir.",
+    "verifiedBuyer": "Doğrulanmış satın alma",
+    "ratingLabel": "5 üzerinden {rating} puan"
+  },
+  "faq": {
+    "title": "Sık sorulan sorular",
+    "description": "Satın almadan önce en çok sorulanlara net yanıtlar.",
+    "pendingBadge": "Numune doğrulaması bekleniyor",
+    "items": {
+      "ink": {
+        "question": "Mürekkep gerekiyor mu?",
+        "answer": "Hayır. Termal baskı kullanır; görüntü, mürekkep kartuşu olmadan doğrudan termal etiketin üzerinde ısıyla oluşur."
+      },
+      "phone": {
+        "question": "Telefonla çalışıyor mu?",
+        "answer": "Evet. iOS ve Android için sunulan uyumlu bir uygulamaya bağlanır; yazma ve yazdırma işlemini doğrudan telefonundan yaparsın."
+      },
+      "width": {
+        "question": "Etiketlerin genişliği ne kadar?",
+        "answer": "15 mm genişliğinde etiket kullanır; kavanozlar, çekmeceler, dosyalar ve kablolar için pratik bir ölçüdür."
+      },
+      "box": {
+        "question": "Kutudan ne çıkıyor?",
+        "answer": "Kutu içeriğini, tedarikçi numunesini inceledikten sonra madde madde yazacağız; böylece burada doğrulanmamış hiçbir bilgi olmayacak."
+      },
+      "languages": {
+        "question": "Birden fazla dilde baskı yapabiliyor mu?",
+        "answer": "Bu mağazadaki diller yalnızca arayüz içindir ve yazıcının o alfabelerde baskı yaptığı anlamına gelmez. Uygulamayı gerçek bir numuneyle test etmeden hiçbir baskı dilini doğrulamayacağız; test sonrasında bu yanıtı güncelleyeceğiz."
+      },
+      "shipping": {
+        "question": "Kargo ve değişim nasıl işliyor?",
+        "answer": "Kargo ve değişim ayrıntıları kargo politikası ile iade ve değişim sayfalarında yayımlanmıştır."
+      }
+    }
+  },
+  "finalCta": {
+    "title": "Düzeni kolaylaştırmaya hazır mısın?",
+    "description": "Etiketlerini istediğin an yazdır, dağınıklığı tek hamlede düzene çevir.",
+    "cta": "Rattebha yazıcını şimdi sipariş et"
+  },
+  "stickyBar": {
+    "from": "Başlangıç",
+    "cta": "Sipariş ver",
+    "viewCart": "Sepeti gör"
+  },
+  "cart": {
+    "title": "Sepetin",
+    "close": "Sepeti kapat",
+    "empty": "Sepetin şu anda boş.",
+    "emptyHint": "Bir kampanya seç ve düzene başla.",
+    "emptyCta": "Kampanyalara göz at",
+    "quantity": "Adet",
+    "increase": "Adedi artır",
+    "decrease": "Adedi azalt",
+    "remove": "Ürünü kaldır",
+    "removed": "Ürün sepetten kaldırıldı",
+    "added": "Ürün sepete eklendi",
+    "subtotal": "Ara toplam",
+    "total": "Toplam",
+    "shippingNote": "Kargo ücreti ödeme adımında hesaplanır.",
+    "checkout": "Ödemeye geç",
+    "continueShopping": "Alışverişe devam et",
+    "unitPrice": "Birim fiyat",
+    "maxQuantity": "Kampanya başına en fazla {max} adet.",
+    "itemCount": "Sepetinde {count} ürün var"
+  },
+  "checkout": {
+    "preparing": "Siparişin hazırlanıyor…",
+    "notConfiguredTitle": "Ödeme altyapısı henüz bağlı değil",
+    "notConfiguredBody": "Bu mağazaya henüz gerçek bir ödeme sağlayıcısı bağlanmadı ve sahte bir ödeme formu göstermeyeceğiz. Lansmandan önce ortam dosyasındaki kurulumu tamamla.",
+    "errorTitle": "Ödeme başlatılamadı",
+    "errorBody": "Beklenmedik bir hata oluştu. Lütfen tekrar dene; sorun sürerse bize yaz.",
+    "retry": "Tekrar dene",
+    "emptyCart": "Ödemeye geçmeden önce sepetine bir ürün ekle."
+  },
+  "footer": {
+    "about": "Rattebha, her gün vakit kazandırdığına inandığımız tek bir etiket yazıcısı üzerine kurulu bir mağazadır.",
+    "linksTitle": "Bağlantılar",
+    "policiesTitle": "Politikalar",
+    "languageTitle": "Dil",
+    "contact": "Bize ulaşın",
+    "shipping": "Kargo politikası",
+    "returns": "İade ve değişim",
+    "privacy": "Gizlilik politikası",
+    "terms": "Kullanım koşulları",
+    "rights": "Tüm hakları saklıdır.",
+    "productNote": "Ürün adı ve model numarası üreticiye aittir."
+  },
+  "contact": {
+    "title": "Bize ulaşın",
+    "description": "Yazıcı ya da siparişinle ilgili sorunu yaz; girdiğin e-posta adresine yanıt verelim.",
+    "name": "Ad soyad",
+    "namePlaceholder": "Adın ve soyadın",
+    "email": "E-posta",
+    "emailPlaceholder": "ornek@eposta.com",
+    "topic": "Konu",
+    "topics": {
+      "product": "Ürünle ilgili soru",
+      "order": "Siparişle ilgili soru",
+      "shipping": "Kargo ve teslimat",
+      "returns": "İade veya değişim",
+      "other": "Diğer"
+    },
+    "message": "Mesaj",
+    "messagePlaceholder": "İhtiyacını burada anlat…",
+    "submit": "Mesajı gönder",
+    "sending": "Gönderiliyor…",
+    "successTitle": "Mesajın bize ulaştı",
+    "successBody": "Yazdığın için teşekkürler. En kısa sürede sana döneceğiz.",
+    "errorTitle": "Mesaj gönderilemedi",
+    "errorBody": "Mesajın gönderilirken bir hata oluştu. Lütfen biraz sonra tekrar dene.",
+    "notConfiguredTitle": "E-posta servisi henüz bağlı değil",
+    "notConfiguredBody": "Bu mağazaya henüz bir e-posta servisi bağlanmadı, bu yüzden mesajın gönderilmedi. Lansmandan önce e-posta kurulumunu tamamla.",
+    "detailsTitle": "İletişim bilgileri",
+    "detailsPending": "Resmî iletişim bilgileri lansmandan önce eklenecek.",
+    "errors": {
+      "nameRequired": "Lütfen adını yaz.",
+      "nameTooShort": "Bu ad çok kısa.",
+      "emailRequired": "Lütfen e-posta adresini yaz.",
+      "emailInvalid": "Bu e-posta adresi geçerli görünmüyor.",
+      "messageRequired": "Lütfen mesajını yaz.",
+      "messageTooShort": "Mesajın çok kısa — en az 20 karakter yaz.",
+      "messageTooLong": "Mesajın çok uzun — en fazla 2000 karakter.",
+      "topicInvalid": "Lütfen geçerli bir konu seç."
+    }
+  },
+  "policies": {
+    "lastUpdated": "Son güncelleme: {date}",
+    "lastUpdatedPending": "Henüz bir güncelleme tarihi belirlenmedi.",
+    "pendingTitle": "İşletme verisi bekleyen madde",
+    "pendingBody": "Bu madde lansmandan önce gerçek veri gerektiriyor; varsayılmış hiçbir değer yazmadık.",
+    "contactPrompt": "Bu politikayla ilgili her soru için bize yazabilirsin.",
+    "shipping": {
+      "title": "Kargo politikası",
+      "description": "Siparişini nasıl hazırlayıp gönderiyoruz ve sipariş vermeden önce nelere dikkat etmelisin.",
+      "sections": {
+        "processing": {
+          "title": "Sipariş hazırlığı",
+          "body": "Ödeme onaylandıktan sonra siparişini hazırlamaya başlarız ve kargo çıkışında sana bildirim göndeririz."
+        },
+        "delivery": {
+          "title": "Teslimat süresi",
+          "body": "Teslimat süresi kargonun çıkış gününden itibaren sayılır ve varış noktasına ile kargo firmasına göre değişir."
+        },
+        "coverage": {
+          "title": "Gönderim yaptığımız yerler",
+          "body": "Bu bölümde fiilen gönderim yaptığımız ülke ve bölgeler yer alacak."
+        },
+        "costs": {
+          "title": "Kargo ücreti",
+          "body": "Nihai kargo ücreti, siparişini onaylamadan önce ödeme adımında gösterilir."
+        },
+        "tracking": {
+          "title": "Kargo takibi",
+          "body": "Kargo firması bir takip numarası verdiğinde bunu e-posta adresine iletiriz."
+        },
+        "delays": {
+          "title": "Gecikmeler",
+          "body": "Gümrük işlemleri ya da kargo firmasının koşulları gibi bizim dışımızdaki nedenlerle bazı gönderiler gecikebilir. Böyle bir durumda sipariş eline ulaşana kadar takibini yaparız."
+        }
+      }
+    },
+    "returns": {
+      "title": "İade ve değişim",
+      "description": "Teslim aldıktan sonra ürünü değiştirme ya da iade etme koşulları.",
+      "sections": {
+        "window": {
+          "title": "İade süresi",
+          "body": "Değişim ya da iade talebi için tanınan süre, siparişi teslim aldığın günden itibaren sayılır."
+        },
+        "condition": {
+          "title": "Ürünün durumu",
+          "body": "Ürün, ambalajı ve aksesuarlarıyla birlikte orijinal durumunda ve yeniden satılabilir olmalıdır."
+        },
+        "defective": {
+          "title": "Hasarlı veya yanlış ürün",
+          "body": "Ürün hasarlı geldiyse ya da sipariş ettiğinden farklıysa, sorunu gösteren fotoğraflarla bize ulaş; durumu biz çözelim."
+        },
+        "process": {
+          "title": "Nasıl talep edilir",
+          "body": "Sipariş numaranı ve değişim nedenini bize gönder, ardından ilettiğimiz adımları izle."
+        },
+        "refunds": {
+          "title": "Para iadesi",
+          "body": "İade edilen ürün teslim alınıp incelendikten sonra tutar, ödemenin yapıldığı yönteme geri aktarılır."
+        },
+        "shippingCost": {
+          "title": "İade kargo ücreti",
+          "body": "Bu bölümde, her durumda iade kargo ücretini kimin karşılayacağı belirtilecek."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Gizlilik politikası",
+      "description": "Hangi verileri topluyoruz, neden topluyoruz ve nasıl işliyoruz.",
+      "sections": {
+        "collected": {
+          "title": "Topladığımız veriler",
+          "body": "Sipariş verirken ya da bize yazarken kendi girdiğin verileri toplarız: ad, e-posta adresi ve teslimat adresi gibi."
+        },
+        "usage": {
+          "title": "Verilerini nasıl kullanıyoruz",
+          "body": "Verilerini siparişini tamamlamak, mesajlarını yanıtlamak ve mağaza deneyimini geliştirmek için kullanırız."
+        },
+        "storage": {
+          "title": "Tarayıcı depolaması",
+          "body": "Seçtiğin dili ve sepet içeriğini, sayfa yenilendiğinde kaybolmasınlar diye kendi tarayıcında saklarız. Bu veriler cihazında kalır ve tarayıcı ayarlarından silebilirsin."
+        },
+        "sharing": {
+          "title": "Veri paylaşımı",
+          "body": "Verilerini satmayız. Yalnızca siparişini tamamlamak için gereken hizmet sağlayıcılarla (ödeme sağlayıcısı ve kargo firması gibi) paylaşırız."
+        },
+        "analytics": {
+          "title": "Analitik ve çerezler",
+          "body": "Bu mağazada şu anda üçüncü taraf hiçbir takip aracı çalışmıyor. İleride eklenirse önce onayını isteyecek ve bu sayfayı güncelleyeceğiz."
+        },
+        "rights": {
+          "title": "Haklarınız",
+          "body": "Bize yazarak verilerini görmeyi, düzeltmeyi veya sildirmeyi talep edebilirsin."
+        }
+      }
+    },
+    "terms": {
+      "title": "Kullanım koşulları",
+      "description": "Bu mağazanın kullanımını ve sipariş verme sürecini düzenleyen kurallar.",
+      "sections": {
+        "scope": {
+          "title": "Kapsam",
+          "body": "Bu mağazayı kullanarak ya da üzerinden sipariş vererek bu sayfadaki koşulları kabul etmiş olursun."
+        },
+        "product": {
+          "title": "Ürün bilgileri",
+          "body": "Ürün açıklamasını ve görsellerini doğru tutmaya çalışıyoruz. Henüz doğrulamadığımız her özellik, mağazada açıkça 'doğrulama bekliyor' olarak işaretlenir."
+        },
+        "orders": {
+          "title": "Siparişler ve fiyatlar",
+          "body": "Gösterilen fiyatlar, siparişi verdiğin an için geçerlidir. Kargoya vermeden önce fiyat ya da açıklamadaki bariz bir hatayı düzeltme hakkımızı saklı tutarız; bu durumda seni bilgilendirir ve iptal imkânı sunarız."
+        },
+        "payment": {
+          "title": "Ödeme",
+          "body": "Ödeme, anlaşmalı ödeme sağlayıcısı üzerinden alınır. Kart bilgilerini kendi sunucularımızda saklamayız."
+        },
+        "liability": {
+          "title": "Sorumluluğun sınırları",
+          "body": "Ürün, olağan ev ve ofis kullanımı içindir. Üreticinin talimatlarına aykırı kullanımdan doğan zararlardan sorumlu değiliz."
+        },
+        "ip": {
+          "title": "Fikrî mülkiyet",
+          "body": "Mağazanın metinleri ve tasarımı Rattebha'ya aittir. Ürün adı ve modeli üreticiye aittir."
+        }
+      }
+    }
+  },
+  "common": {
+    "loading": "Yükleniyor…",
+    "errorTitle": "Bir sorun oluştu",
+    "errorBody": "İşlemi tamamlayamadık. Lütfen tekrar dene.",
+    "retry": "Tekrar dene",
+    "close": "Kapat",
+    "required": "Zorunlu",
+    "optional": "İsteğe bağlı",
+    "outOfStock": "Stokta yok",
+    "inStock": "Stokta",
+    "setupNoticeTitle": "Lansmandan önce gereken veriler",
+    "notFoundTitle": "Sayfa bulunamadı",
+    "notFoundBody": "Açtığın bağlantı hatalı ya da değiştirilmiş.",
+    "backHome": "Ana sayfaya dön"
+  },
+  "media": {
+    "hero": "Etiket uygulamasının açık olduğu bir telefonun yanındaki Q30 Aimo Mini yazıcı; etrafında etiketlenmiş mutfak kavanozları ve düzenli bir çekmece",
+    "step1": "Telefon uygulamasında etiket metnini yazan eller, masada duran yazıcı",
+    "step2": "Baskıdan önce etiket tasarım seçeneklerini gösteren telefon ekranı",
+    "step3": "Yazıcıdan çıkan ve saklama kutusuna yapıştırılan etiket",
+    "useKitchen": "Mutfak rafında, her biri kendi etiketini taşıyan baharat ve erzak kavanozları",
+    "useKids": "Çocuk odasında etiketleri net biçimde görünen oyuncak kutuları ve çekmeceler",
+    "useStudy": "Derse göre etiketlenmiş defterler, dosyalar ve bir kalemlik",
+    "useOffice": "Etiketlenmiş kablolar, dosya kutuları ve ofis çekmeceleri",
+    "usePackaging": "Üzerlerinde basılı etiketlerle kargoya hazır paketlenmiş siparişler",
+    "useGifts": "Üzerlerinde basılı isim kartları olan küçük hediye kutuları",
+    "gallery1": "Sade bir arka planda önden görünen Q30 Aimo Mini yazıcı",
+    "gallery2": "Ne kadar küçük olduğunu göstermek için tek elde tutulan Q30 yazıcı",
+    "gallery3": "İçinde 15 mm etiket rulosu görünen açık yazıcı",
+    "gallery4": "Etiket uygulamasının çalıştığı bir telefonun yanındaki yazıcı",
+    "gallery5": "Kavanoz, dosya ve kargo paketlerine yapıştırılmış etiketlerin yakın çekimi",
+    "before": "Etiketsiz kaplar ve çekmeceler ile sıradan paketlenmiş bir koli",
+    "after": "Aynı kaplar ve çekmeceler, üzerlerinde net etiketlerle",
+    "offerSingle": "Deneme etiket rulosuyla birlikte tek bir Q30 yazıcı",
+    "offerBundle": "İki deneme etiket rulosuyla birlikte iki Q30 yazıcı",
+    "ogImage": "Bir telefonun ve etiketlenmiş mutfak kavanozlarının yanında duran Q30 Aimo Mini yazıcı"
+  }
+}

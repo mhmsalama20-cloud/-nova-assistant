@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "title": "Rattebha — Q30 Aimo Mini Portable Label Printer",
+    "description": "A pocket-sized 15 mm thermal label printer that works straight from your phone, with no ink. Sort your kitchen, drawers, study gear and order packaging in seconds.",
+    "ogImageAlt": "Q30 Aimo Mini printer beside a phone and labelled kitchen jars"
+  },
+  "brand": {
+    "name": "Rattebha",
+    "latin": "Rattebha",
+    "tagline": "Print it. Stick it. Sort it.",
+    "productName": "Q30 Aimo Mini Portable Thermal Label Printer",
+    "productTagline": "Portable 15 mm thermal label printer"
+  },
+  "announcement": {
+    "shipping": "Fast shipping",
+    "payment": "Secure payment",
+    "warranty": "Replacement guarantee"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "how": "How it works",
+    "offers": "Offers",
+    "faq": "FAQ",
+    "order": "Order now",
+    "language": "Language",
+    "changeLanguage": "Change language",
+    "currentLanguage": "Current language",
+    "cart": "Cart",
+    "cartWithCount": "Cart, {count} items",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to main content",
+    "backToTop": "Back to top"
+  },
+  "hero": {
+    "badge": "Launch discount — limited time",
+    "title": "Everything in its place, with a name you can read",
+    "description": "A pocket-sized label printer that helps you sort your home, your studies and your side business in seconds — straight from your phone, with no ink.",
+    "primaryCta": "Order now",
+    "secondaryCta": "See how it works",
+    "highlights": {
+      "noInk": "No ink needed",
+      "phone": "Runs from your phone",
+      "width": "15 mm labels"
+    },
+    "priceFrom": "From {price}"
+  },
+  "gallery": {
+    "title": "Take a closer look",
+    "description": "See the size of the printer, the roll inside it, and how the labels look once they are on.",
+    "zoomIn": "Zoom in on the image",
+    "zoomOut": "Close zoom",
+    "previous": "Previous image",
+    "next": "Next image",
+    "thumbnailLabel": "Show image {index}"
+  },
+  "how": {
+    "title": "How does it work?",
+    "description": "Three steps. No computer, no learning curve.",
+    "stepLabel": "Step {number}",
+    "steps": {
+      "one": {
+        "title": "Type your label on your phone",
+        "description": "Open the companion app and type the name, the date or whatever detail you want to pin down."
+      },
+      "two": {
+        "title": "Pick the layout that fits",
+        "description": "Set the text size, the frame and the alignment until the label looks the way you want it."
+      },
+      "three": {
+        "title": "Print, stick, and you're sorted",
+        "description": "Hit print, press the label onto the jar or the drawer, and move on to the next one."
+      }
+    }
+  },
+  "features": {
+    "title": "Small in size, big on order",
+    "description": "Everything you need to turn clutter into labels you can read across the room.",
+    "items": {
+      "noInk": {
+        "title": "Thermal printing — no ink to buy",
+        "description": "It uses heat instead of ink, so there are no cartridges and no running costs after you buy it."
+      },
+      "connection": {
+        "title": "Pairs easily with your phone",
+        "description": "It connects through the companion app for iOS and Android in a few short steps."
+      },
+      "portable": {
+        "title": "Light enough to live in your bag",
+        "description": "Small enough to carry between home, campus and the office without thinking about it."
+      },
+      "versatile": {
+        "title": "Made for home, study and small businesses",
+        "description": "One simple habit that serves the kitchen, the drawer, your notes and your order packaging."
+      },
+      "fast": {
+        "title": "Tidy labels in seconds",
+        "description": "From the thought to the label on the box: you type, you print, you're done."
+      },
+      "width": {
+        "title": "Uses 15 mm label rolls",
+        "description": "A practical width for jars, drawers, folders and cables."
+      }
+    },
+    "printLanguagesNote": {
+      "title": "A note on printing languages",
+      "body": "The languages here apply to this store's interface only. We have not yet confirmed which languages the printer's app can print, and we will update this once we have tested a real sample."
+    }
+  },
+  "useCases": {
+    "title": "One printer, endless uses",
+    "description": "Wherever something needs a clear name, there is room for a label.",
+    "items": {
+      "kitchen": {
+        "title": "Kitchen",
+        "description": "Spices, grains and leftovers, each with a clear name and the date it was filled."
+      },
+      "kids": {
+        "title": "Kids' room",
+        "description": "Toy bins and drawers that make sense even to a child who cannot read yet, with colours and symbols."
+      },
+      "study": {
+        "title": "Study",
+        "description": "Notebooks, folders and pencil cases sorted by subject and by term."
+      },
+      "office": {
+        "title": "Office",
+        "description": "Cables, keys and file drawers named so you stop hunting for things."
+      },
+      "packaging": {
+        "title": "Order packaging",
+        "description": "A clean label on every order gives your home business a professional finish."
+      },
+      "gifts": {
+        "title": "Gifts",
+        "description": "Small tags with the recipient's name, or a kind line on the gift box."
+      }
+    }
+  },
+  "offers": {
+    "title": "Pick the offer that suits you",
+    "description": "Every price includes the printer and a trial label roll. Choose a quantity and add it to your cart.",
+    "quantity": "Quantity",
+    "increase": "Increase quantity",
+    "decrease": "Decrease quantity",
+    "addToCart": "Add to cart",
+    "added": "Added",
+    "outOfStock": "Out of stock",
+    "outOfStockNote": "This offer is unavailable right now. Try the other offer or get in touch.",
+    "selected": "Selected offer",
+    "select": "Choose this offer",
+    "saveAmount": "Save {amount}",
+    "instead": "instead of {amount}",
+    "perPrinter": "{price} per printer",
+    "items": {
+      "single": {
+        "name": "One printer",
+        "description": "Includes the printer and a trial label roll",
+        "note": "A good place to start"
+      },
+      "bundle": {
+        "name": "1+1 bundle",
+        "description": "Two printers with two trial label rolls",
+        "note": "One for you, one for someone you love",
+        "badge": "Most popular"
+      }
+    }
+  },
+  "beforeAfter": {
+    "title": "See the difference",
+    "description": "Same shelves, same drawers — the only change is a label you can actually read.",
+    "beforeLabel": "Before Rattebha",
+    "beforeText": "Unmarked containers, messy drawers and orders in plain packaging.",
+    "afterLabel": "After Rattebha",
+    "afterText": "Clearer organisation, a nicer look, and packaging that gives your business a professional touch."
+  },
+  "reviews": {
+    "title": "Customer reviews",
+    "description": "Real experiences from customers who bought the printer will appear here.",
+    "sampleBadge": "Sample data — development only",
+    "sampleNotice": "These cards are placeholders that show the design only, and they do not appear in the published store. Replace them with real reviews in src/data/reviews.ts.",
+    "verifiedBuyer": "Verified purchase",
+    "ratingLabel": "Rated {rating} out of 5"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "description": "Straight answers to what people ask before they buy.",
+    "pendingBadge": "Pending sample verification",
+    "items": {
+      "ink": {
+        "question": "Does it need ink?",
+        "answer": "No. It uses thermal printing, which means the image is formed by heat on the thermal label itself, with no ink cartridges."
+      },
+      "phone": {
+        "question": "Does it work with a phone?",
+        "answer": "Yes. It connects to a companion app for iOS and Android, and you write and print straight from your phone."
+      },
+      "width": {
+        "question": "How wide are the labels?",
+        "answer": "It uses 15 mm wide labels, a practical width for jars, drawers, folders and cables."
+      },
+      "box": {
+        "question": "What comes in the box?",
+        "answer": "We will list the box contents item by item once we have inspected the supplier's sample, so that nothing here is unconfirmed."
+      },
+      "languages": {
+        "question": "Can it print in several languages?",
+        "answer": "The languages on this store apply to the interface only, and do not automatically mean the printer prints those scripts. We will not confirm any printing language before testing the app with a real sample, and we will update this answer once we have."
+      },
+      "shipping": {
+        "question": "How do shipping and replacements work?",
+        "answer": "Shipping and replacement details are published on the shipping policy and the returns and exchanges pages."
+      }
+    }
+  },
+  "finalCta": {
+    "title": "Ready to make organising easy?",
+    "description": "Print your labels whenever you like, and turn clutter into order in one move.",
+    "cta": "Order your Rattebha printer"
+  },
+  "stickyBar": {
+    "from": "From",
+    "cta": "Order now",
+    "viewCart": "View cart"
+  },
+  "cart": {
+    "title": "Your cart",
+    "close": "Close cart",
+    "empty": "Your cart is empty.",
+    "emptyHint": "Pick an offer and start sorting.",
+    "emptyCta": "Browse the offers",
+    "quantity": "Quantity",
+    "increase": "Increase quantity",
+    "decrease": "Decrease quantity",
+    "remove": "Remove item",
+    "removed": "Item removed from your cart",
+    "added": "Item added to your cart",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "shippingNote": "Shipping is calculated at checkout.",
+    "checkout": "Continue to checkout",
+    "continueShopping": "Keep shopping",
+    "unitPrice": "Unit price",
+    "maxQuantity": "Maximum {max} per offer.",
+    "itemCount": "{count} items in your cart"
+  },
+  "checkout": {
+    "preparing": "Preparing your order…",
+    "notConfiguredTitle": "Checkout is not connected yet",
+    "notConfiguredBody": "No real payment provider is connected to this store yet, and we will not show a fake payment form. Finish the setup in your environment file before launch.",
+    "errorTitle": "We could not start checkout",
+    "errorBody": "Something went wrong. Please try again, and get in touch if it keeps happening.",
+    "retry": "Try again",
+    "emptyCart": "Add an item to your cart before checking out."
+  },
+  "footer": {
+    "about": "Rattebha is a store built around one label printer we believe saves you time every single day.",
+    "linksTitle": "Links",
+    "policiesTitle": "Policies",
+    "languageTitle": "Language",
+    "contact": "Contact us",
+    "shipping": "Shipping policy",
+    "returns": "Returns and exchanges",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "rights": "All rights reserved.",
+    "productNote": "The product name and model number belong to the manufacturer."
+  },
+  "contact": {
+    "title": "Contact us",
+    "description": "Send us your question about the printer or your order, and we will reply to the address you enter.",
+    "name": "Name",
+    "namePlaceholder": "Your full name",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "topic": "Topic",
+    "topics": {
+      "product": "Question about the product",
+      "order": "Question about an order",
+      "shipping": "Shipping and delivery",
+      "returns": "Return or exchange",
+      "other": "Something else"
+    },
+    "message": "Message",
+    "messagePlaceholder": "Tell us what you need…",
+    "submit": "Send message",
+    "sending": "Sending…",
+    "successTitle": "We got your message",
+    "successBody": "Thanks for reaching out. We will get back to you as soon as we can.",
+    "errorTitle": "Message not sent",
+    "errorBody": "Something went wrong while sending your message. Please try again shortly.",
+    "notConfiguredTitle": "The email service is not connected yet",
+    "notConfiguredBody": "No email service is connected to this store yet, so your message was not sent. Finish the email setup before launch.",
+    "detailsTitle": "Contact details",
+    "detailsPending": "Official contact details will be added before launch.",
+    "errors": {
+      "nameRequired": "Please enter your name.",
+      "nameTooShort": "That name is too short.",
+      "emailRequired": "Please enter your email address.",
+      "emailInvalid": "That email address does not look right.",
+      "messageRequired": "Please write your message.",
+      "messageTooShort": "Your message is too short — please write at least 20 characters.",
+      "messageTooLong": "Your message is too long — 2000 characters maximum.",
+      "topicInvalid": "Please choose a valid topic."
+    }
+  },
+  "policies": {
+    "lastUpdated": "Last updated: {date}",
+    "lastUpdatedPending": "No update date has been set yet.",
+    "pendingTitle": "Clause awaiting business data",
+    "pendingBody": "This clause needs real data before launch, and we have not filled it with an assumed value.",
+    "contactPrompt": "For any question about this policy, get in touch.",
+    "shipping": {
+      "title": "Shipping policy",
+      "description": "How we prepare and ship your order, and what to know before you buy.",
+      "sections": {
+        "processing": {
+          "title": "Order processing",
+          "body": "We start preparing your order once payment is confirmed, and we notify you when the parcel leaves us."
+        },
+        "delivery": {
+          "title": "Delivery time",
+          "body": "Delivery time is counted from the day the parcel ships and varies by destination and carrier."
+        },
+        "coverage": {
+          "title": "Where we ship",
+          "body": "This section will list the countries and regions we actually ship to."
+        },
+        "costs": {
+          "title": "Shipping cost",
+          "body": "The final shipping cost is shown at checkout before you confirm your order."
+        },
+        "tracking": {
+          "title": "Tracking your parcel",
+          "body": "When the carrier provides a tracking number, we send it to your email address."
+        },
+        "delays": {
+          "title": "Delays",
+          "body": "Some parcels are delayed for reasons outside our control, such as customs clearance or carrier conditions. When that happens we follow up with you until your order arrives."
+        }
+      }
+    },
+    "returns": {
+      "title": "Returns and exchanges",
+      "description": "The terms for exchanging or returning the product after delivery.",
+      "sections": {
+        "window": {
+          "title": "Return window",
+          "body": "The window for requesting an exchange or a return is counted from the day you receive your order."
+        },
+        "condition": {
+          "title": "Product condition",
+          "body": "The product must be in its original condition with its packaging and accessories, and fit for resale."
+        },
+        "defective": {
+          "title": "Damaged or incorrect items",
+          "body": "If your item arrives damaged or is not what you ordered, contact us with photos of the problem and we will handle it."
+        },
+        "process": {
+          "title": "How to request one",
+          "body": "Send us your order number and the reason for the exchange, then follow the instructions we send you."
+        },
+        "refunds": {
+          "title": "Refunds",
+          "body": "Refunds are issued to the original payment method after the returned product is received and inspected."
+        },
+        "shippingCost": {
+          "title": "Return shipping cost",
+          "body": "This section will state who covers return shipping in each case."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "description": "What data we collect, why we collect it, and how we handle it.",
+      "sections": {
+        "collected": {
+          "title": "Data we collect",
+          "body": "We collect the data you enter yourself when ordering or contacting us, such as your name, email address and shipping address."
+        },
+        "usage": {
+          "title": "How we use your data",
+          "body": "We use your data to fulfil your order, reply to your messages and improve the store experience."
+        },
+        "storage": {
+          "title": "Browser storage",
+          "body": "We store your chosen language and your cart contents in your own browser so they survive a page refresh. That data stays on your device and you can clear it from your browser settings."
+        },
+        "sharing": {
+          "title": "Sharing your data",
+          "body": "We do not sell your data. We share it only with the service providers needed to fulfil your order, such as the payment provider and the carrier."
+        },
+        "analytics": {
+          "title": "Analytics and cookies",
+          "body": "No third-party tracking tool is running on this store today. If one is added later, we will ask for your consent first and update this page."
+        },
+        "rights": {
+          "title": "Your rights",
+          "body": "You can ask to see, correct or delete your data by contacting us."
+        }
+      }
+    },
+    "terms": {
+      "title": "Terms of use",
+      "description": "The rules that govern using this store and placing an order.",
+      "sections": {
+        "scope": {
+          "title": "Scope",
+          "body": "By using this store or placing an order through it, you agree to the terms set out on this page."
+        },
+        "product": {
+          "title": "Product information",
+          "body": "We work to keep the product description and photos accurate. Any specification we have not verified yet is clearly marked in the store as pending verification."
+        },
+        "orders": {
+          "title": "Orders and prices",
+          "body": "The prices shown apply at the moment you place your order. We reserve the right to correct an obvious pricing or description error before shipping, in which case we notify you and let you cancel."
+        },
+        "payment": {
+          "title": "Payment",
+          "body": "Payment is processed by our payment provider. We do not store your card details on our servers."
+        },
+        "liability": {
+          "title": "Limits of liability",
+          "body": "The product is intended for ordinary home and office use. We are not liable for damage caused by use that goes against the manufacturer's instructions."
+        },
+        "ip": {
+          "title": "Intellectual property",
+          "body": "The store's text and design belong to Rattebha. The product name and model belong to the manufacturer."
+        }
+      }
+    }
+  },
+  "common": {
+    "loading": "Loading…",
+    "errorTitle": "Something went wrong",
+    "errorBody": "We could not complete that. Please try again.",
+    "retry": "Try again",
+    "close": "Close",
+    "required": "Required",
+    "optional": "Optional",
+    "outOfStock": "Out of stock",
+    "inStock": "In stock",
+    "setupNoticeTitle": "Data required before launch",
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "The link you opened is wrong or has been changed.",
+    "backHome": "Back to the home page"
+  },
+  "media": {
+    "hero": "Q30 Aimo Mini printer beside a phone showing the label app, surrounded by labelled kitchen jars and a tidy drawer",
+    "step1": "Hands typing label text in the phone app with the printer on the desk",
+    "step2": "Phone screen showing the label layout options before printing",
+    "step3": "A label coming out of the printer and being pressed onto a storage box",
+    "useKitchen": "Spice and pantry jars on a kitchen shelf, each with its own label",
+    "useKids": "Toy bins and drawers in a child's room with clear labels",
+    "useStudy": "Notebooks, folders and a pencil case labelled by subject",
+    "useOffice": "Cables, file boxes and office drawers with labels",
+    "usePackaging": "Wrapped orders ready to ship with printed labels on them",
+    "useGifts": "Small gift boxes with printed name tags",
+    "gallery1": "Q30 Aimo Mini printer seen from the front on a plain background",
+    "gallery2": "The Q30 printer held in one hand to show how small it is",
+    "gallery3": "The printer open, showing a 15 mm label roll inside",
+    "gallery4": "The printer next to a phone running the label app",
+    "gallery5": "Close-up of printed labels on jars, folders and parcels",
+    "before": "Unlabelled containers and drawers next to a plainly wrapped parcel",
+    "after": "The same containers and drawers with clear labels applied",
+    "offerSingle": "One Q30 printer with a trial label roll",
+    "offerBundle": "Two Q30 printers with two trial label rolls",
+    "ogImage": "Q30 Aimo Mini printer beside a phone and labelled kitchen jars"
+  }
+}
