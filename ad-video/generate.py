@@ -33,8 +33,8 @@ def load_config():
 
 
 def expand(text, cfg):
-    """Fill {mother}, {baby}, {product}, {location}, {dialogue}, {product_name} in a prompt."""
-    values = dict(cfg['blocks'], product_name=cfg['product_name'])
+    """Fill {mother}, {baby}, {product}, {location}, {dialogue}, {dialogue_language}, {product_name} in a prompt."""
+    values = dict(cfg['blocks'], product_name=cfg['product_name'], dialogue_language=cfg['dialogue_language'])
     values['dialogue'] = cfg['dialogue'].format_map(values)
     return text.format_map(values)
 

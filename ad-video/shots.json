@@ -1,6 +1,7 @@
 {
-  "product_name": "PRODUCT_NAME",
-  "dialogue": "مع {product_name}… هو دايمًا دافي.",
+  "product_name": "Cozy",
+  "dialogue": "{product_name}… we're a little close, a lot cozy.",
+  "dialogue_language": "English",
   "aspect_ratio": "9:16",
 
   "references": {
@@ -10,7 +11,7 @@
   },
 
   "blocks": {
-    "mother": "the exact same young woman as in the MOTHER reference photo (identical face, eyes, nose, smile and hair: long wavy honey-blonde hair, fair skin, early-to-mid twenties)",
+    "mother": "the exact same young woman as in the MOTHER reference photo (identical face, eyes, nose, smile and hair: East Asian, early twenties, long straight dark-brown hair, warm brown eyes, bright wide smile)",
     "baby": "the exact same baby boy as in the BABY reference photo (identical face: about 10 months old, short light-brown hair, big blue-grey eyes, round chubby cheeks, fair skin)",
     "product": "the cream/ivory fleece babywearing zip-up hoodie from the PRODUCT reference photo: the baby rides on the mother's chest inside a zip-in front panel of the same hoodie with only his head out; the panel has its own small attached baby hood with a soft blush-pink lining; double front zippers, white drawstrings, big kangaroo pocket; she wears black leggings",
     "location": "a quiet tree-lined city sidewalk in late autumn, warm limestone buildings, a few parked cars, fallen yellow leaves on the pavement"
@@ -112,7 +113,7 @@
       "edit_seconds": 6,
       "refs": ["mother", "baby", "product", "@S07"],
       "keyframe": "Medium shot, {mother} faces the camera on the drizzly street, wearing {product} with {baby} cozy under the little hood on her chest. Both happy: she smiles warmly into the camera, the baby smiles too. Soft light, light drizzle, shallow depth of field, clean background.",
-      "motion": "She looks into the camera, smiles and says clearly in Levantine Arabic, warm and natural: \"{dialogue}\" Then the baby giggles and pats his hood. Light drizzle, slow handheld push-in. Accurate lip-sync, natural voice, no music."
+      "motion": "She looks into the camera, smiles and says clearly in {dialogue_language}, warm and natural: \"{dialogue}\" Then the baby giggles and pats his hood. Light drizzle, slow handheld push-in. Accurate lip-sync, natural voice, no music."
     }
   ]
 }
