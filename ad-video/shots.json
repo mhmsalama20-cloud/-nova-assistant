@@ -1,0 +1,149 @@
+{
+  "product_name": "Cozy",
+  "dialogue": "{product_name}… we're a little close, a lot cozy.",
+  "dialogue_language": "English",
+  "aspect_ratio": "9:16",
+  "references": {
+    "mother": "refs/mother.png",
+    "baby": "refs/baby.png",
+    "product": "refs/product.webp"
+  },
+  "blocks": {
+    "mother": "the exact same young woman as in the MOTHER reference photo (identical face, eyes, nose, smile and hair: East Asian, early twenties, long straight dark-brown hair, warm brown eyes, bright wide smile)",
+    "baby": "the exact same baby boy as in the BABY reference photo (identical face: about 10 months old, short light-brown hair, big blue-grey eyes, round chubby cheeks, fair skin)",
+    "product": "the cream / off-white fluffy teddy-sherpa babywearing hoodie from the PRODUCT reference photo: the baby rides on the mother's chest inside a large rounded sherpa baby pouch that zips into the front with two long side zippers and has a gathered elastic bottom, only his head out; the pouch has its own small baby hood with two round teddy-bear ears, folded down on the front of the pouch until it is pulled up; her own hood has thin white drawstrings; ribbed cuffs and hem, side pockets; black leggings; everything cream, no pink",
+    "location": "a quiet tree-lined city sidewalk in late autumn, warm limestone buildings, a few parked cars, fallen yellow leaves on the pavement"
+  },
+  "style": "Photorealistic live-action TV commercial footage, shot on ARRI Alexa Mini LF with a 35mm lens, natural light, shallow depth of field, real skin texture with visible pores and fine detail, no beauty filter, subtle film grain, true-to-life colors, 24fps. Not CGI, not illustration, not a 3D render.",
+  "negative": "cartoon, anime, 3d render, CGI, plastic or waxy skin, airbrushed face, uncanny, distorted face, face morphing, identity change, extra fingers, deformed hands, extra limbs, warped zipper, logos, text, watermark, subtitles, heavy rain, storm, lightning",
+  "models": {
+    "_note": "Model ids and argument names differ per model. Copy them from the model's page on cloud.higgsfield.ai, then run with --dry-run to check the requests. Values written exactly as \"{name}\" are replaced with the raw value (list/number); other strings are filled in as text.",
+    "keyframe": {
+      "id": "bytedance/seedream/v4/edit",
+      "args": {
+        "prompt": "{prompt}",
+        "image_urls": "{image_urls}",
+        "aspect_ratio": "{aspect_ratio}",
+        "resolution": "2K"
+      }
+    },
+    "video": {
+      "id": "SET_IMAGE_TO_VIDEO_MODEL_ID",
+      "args": {
+        "prompt": "{prompt}",
+        "image_url": "{image_url}",
+        "duration": "{duration}",
+        "aspect_ratio": "{aspect_ratio}"
+      }
+    }
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "title": "مشوار مشمس — ضحك وفرح",
+      "duration": 5,
+      "edit_seconds": 4,
+      "refs": [
+        "mother",
+        "baby",
+        "product"
+      ],
+      "keyframe": "Medium-wide shot, camera in front of them at chest height. {mother} walks along {location} on a mild, sunny afternoon, wearing {product}. The baby's little hood is down. Both are laughing for real: the mother looks down at {baby} with a wide, genuine smile, and the baby giggles with an open-mouthed smile. Soft golden sunlight, light breeze.",
+      "motion": "Smooth handheld tracking shot moving backwards as the mother walks toward camera at a relaxed pace. She laughs and bounces him gently; the baby giggles and wiggles his hands at the edge of the pouch. A few leaves drift down. Happy, carefree, warm mood. Faces stay exactly the same throughout."
+    },
+    {
+      "id": "S02",
+      "title": "بوسة على راسه",
+      "duration": 5,
+      "edit_seconds": 3.5,
+      "refs": [
+        "mother",
+        "baby",
+        "product",
+        "@S01"
+      ],
+      "keyframe": "Close-up, slightly low angle, same street and outfit as the S01 frame. {mother} tilts her head down and smiles at {baby}, who looks up at her, beaming, from inside the cream hoodie panel. Warm golden backlight through the trees makes her hair glow.",
+      "motion": "The mother leans down and plants a soft kiss on top of the baby's head, then laughs; the baby squeals with joy and grabs the white drawstring. Gentle handheld camera, shallow depth of field, natural movement."
+    },
+    {
+      "id": "S03",
+      "title": "الجو بيتقلّب",
+      "duration": 5,
+      "edit_seconds": 4,
+      "refs": [
+        "mother",
+        "product",
+        "@S01"
+      ],
+      "keyframe": "Medium shot from the side on the same street. The sun is now hidden behind thick grey clouds; the light is cool and bluish, and {mother} stands there as a gust of wind lifts her hair and blows leaves across the sidewalk. She has stopped smiling and glances up at the darkening sky, uncertain, one arm around the baby in the front panel of {product}.",
+      "motion": "Clouds roll over and the light shifts from soft daylight to cool grey. A cold gust blows her hair across her face and scatters the leaves. Her smile slowly fades, she looks up at the sky and her brows draw together; she instinctively wraps her arm tighter around the baby. Real-time, natural motion."
+    },
+    {
+      "id": "S04",
+      "title": "الولد بيبرد",
+      "duration": 5,
+      "edit_seconds": 3.5,
+      "refs": [
+        "baby",
+        "product",
+        "@S01"
+      ],
+      "keyframe": "Extreme close-up of the face of {baby}, peeking out of the top of the cream sherpa pouch, his little bear-ear hood still down. Cold grey daylight, his cheeks and nose slightly pink from the cold, a few tiny raindrops in his hair. His happy look is gone: lower lip pushed out, eyes squinting, about to cry.",
+      "motion": "A cold gust ruffles the baby's hair and a fine drizzle begins, tiny drops landing on his hair and forehead. He blinks at the drops, his face crumples, his lower lip trembles and he starts to whimper. Subtle, natural baby micro-expressions."
+    },
+    {
+      "id": "S05",
+      "title": "خوف الأم عليه",
+      "duration": 5,
+      "edit_seconds": 3,
+      "refs": [
+        "mother",
+        "product",
+        "@S03"
+      ],
+      "keyframe": "Close-up of the face of {mother}, in cool grey light, light drizzle falling, small droplets in her hair and on her cheeks. She looks worried and sad: brows knitted, lips pressed together, eyes fixed down on her baby with concern.",
+      "motion": "Light drizzle falls. She looks down at her whimpering baby, her face tightens with worry, she exhales and quickly reaches down toward him. Genuine, understated emotion, no exaggerated acting."
+    },
+    {
+      "id": "S06",
+      "title": "لقطة المنتج — الطاقية على راسه",
+      "duration": 5,
+      "edit_seconds": 5,
+      "refs": [
+        "baby",
+        "product",
+        "@S04"
+      ],
+      "keyframe": "Detail close-up from above at chest height: the mother's hands hold the small bear-ear baby hood that is folded down on the front of the pouch ({product}), about to lift it over the head of {baby}. Light drizzle, raindrops beading on the fluffy sherpa. Sharp focus on the sherpa texture and the bear ears.",
+      "motion": "The mother's hands gently lift the small attached hood from behind the baby's neck and pull it forward over his head, smooth it and tuck the edge around his cheeks, then zip the panel up a little higher. Careful, tender, realistic hand movement with five correct fingers on each hand. Raindrops roll off the fleece. The baby stops whimpering."
+    },
+    {
+      "id": "S07",
+      "title": "رجعت الضحكة",
+      "duration": 5,
+      "edit_seconds": 4,
+      "refs": [
+        "mother",
+        "baby",
+        "product",
+        "@S06"
+      ],
+      "keyframe": "Medium close-up of {mother} and {baby} together in light drizzle. The baby is warm and snug under the little bear-ear sherpa hood, smiling again, cheeks rosy. The mother looks down at him with a relieved, tender smile, a raindrop on her cheek. Cool light with a hint of warmth returning.",
+      "motion": "The baby's face relaxes, he coos and breaks into a big smile; the mother's worried face melts into a relieved laugh, she gently rubs her nose against the top of his hood. They start walking again through the drizzle, completely at ease. Warm, happy mood is back."
+    },
+    {
+      "id": "S08",
+      "title": "اسم المنتج",
+      "duration": 8,
+      "edit_seconds": 6.5,
+      "refs": [
+        "mother",
+        "baby",
+        "product",
+        "@S07"
+      ],
+      "keyframe": "Medium shot, {mother} faces the camera on the drizzly street, wearing {product} with {baby} cozy under the little hood on her chest. Both happy: she smiles warmly into the camera, the baby smiles too. Soft light, light drizzle, shallow depth of field, clean background.",
+      "motion": "She looks into the camera, smiles and says clearly in {dialogue_language}, warm and natural: \"{dialogue}\" Then the baby giggles and pats his hood. Light drizzle, slow handheld push-in. Accurate lip-sync, natural voice, no music."
+    }
+  ]
+}

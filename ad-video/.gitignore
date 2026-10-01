@@ -1,0 +1,4 @@
+output/
+.env
+refs/*
+!refs/README.md
