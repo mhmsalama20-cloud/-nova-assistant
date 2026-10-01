@@ -31,7 +31,7 @@
 ```bash
 cd ad-video
 pip install -r requirements.txt
-export HF_KEY="key-id:key-secret"     # من cloud.higgsfield.ai — لا تحطه بأي ملف بالريبو
+export HF_CREDENTIALS="key-id:key-secret"   # من cloud.higgsfield.ai (أو HF_KEY) — لا تحطه بأي ملف بالريبو
 
 python generate.py --dry-run                 # بيطبع كل الطلبات بدون ما يصرف رصيد
 python generate.py --stage keyframes         # 1) الصور الأولى لكل لقطة → output/keyframes/

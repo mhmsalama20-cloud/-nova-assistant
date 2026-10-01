@@ -5,10 +5,11 @@ pipeline mode (default): for every shot in shots.json, generate a keyframe image
 from the reference photos, then animate it with an image-to-video model.
 agent mode: hand the whole brief and the reference photos to the Higgsfield Agent.
 
-Credentials come from HF_KEY ("key-id:key-secret") or HF_API_KEY + HF_API_SECRET.
+Credentials come from HF_CREDENTIALS or HF_KEY ("key-id:key-secret"), or HF_API_KEY + HF_API_SECRET.
 """
 import argparse
 import json
+import os
 import pathlib
 import re
 import sys
@@ -245,6 +246,10 @@ def main():
     parser.add_argument('--dry-run', action='store_true', help='print the requests without calling Higgsfield')
     parser.add_argument('--timeout', type=float, default=3600, help='agent mode: seconds to wait for the turn')
     args = parser.parse_args()
+
+    # The SDK reads HF_KEY; accept the HF_CREDENTIALS name used in Higgsfield's docs too.
+    if os.environ.get('HF_CREDENTIALS') and not os.environ.get('HF_KEY'):
+        os.environ['HF_KEY'] = os.environ['HF_CREDENTIALS']
 
     cfg = load_config()
     if args.mode == 'agent':
