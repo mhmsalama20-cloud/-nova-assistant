@@ -20,6 +20,7 @@ Reading signals:
 - Best Sellers Rank (BSR) under about 5,000 in a main category usually means steady daily sales. Don't turn BSR into exact unit sales without a data tool; mark any conversion ⚠️.
 - Several sellers with few reviews (under 300) on page one means room to enter. Page one owned by products with 5,000+ reviews or Amazon Basics means a hard market.
 - "X bought in past month" labels on search results are first-party numbers. Quote them as shown.
+- These thresholds are rough amazon.com benchmarks. Each marketplace ranks separately, and the same rank means far fewer sales on a smaller one such as amazon.sa, amazon.ae or amazon.eg. There, judge rank and review counts against the top 10 results in the same category on the same marketplace instead of these fixed numbers.
 
 ### noon (Gulf and Egypt)
 
@@ -87,6 +88,6 @@ What to extract:
 If any of these are connected, use them for numbers and treat the pages above as context:
 
 - **Apify** (official, many ready scrapers for Amazon, AliExpress, TikTok Shop and Google Trends; paid per use)
-- **Helium 10** and **Jungle Scout** (official Amazon data: sales estimates, keywords, competitors; need a paid plan)
+- **Helium 10** and **Jungle Scout** (each vendor's official MCP server: Amazon sales estimates, keywords, competitors; high-tier paid plans). The sales numbers come from the vendor's own model, not from Amazon, so mark them ⚠️.
 - **Keepa** (Amazon price and rank history)
 - **Google Trends** community servers (free, unofficial, can break without notice)

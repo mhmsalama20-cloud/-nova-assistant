@@ -33,7 +33,7 @@ def calculate(price, cost, shipping, cpa=0.0, charged_shipping=0.0,
         "break_even_cpa": break_even_cpa,
         "break_even_roas": revenue / break_even_cpa if break_even_cpa > 0 else None,
         "roas_at_cpa": revenue / cpa if cpa > 0 else None,
-        "price_to_landed": price / landed if landed else None,
+        "revenue_to_landed": revenue / landed if landed else None,
     }
 
 
@@ -64,9 +64,10 @@ def main(argv=None):
     p.add_argument("--cpa", type=float, default=0.0, help="ad spend per purchase")
     p.add_argument("--charged-shipping", type=float, default=0.0, help="shipping the customer pays you")
     p.add_argument("--platform-fee", type=float, default=0.0,
-                   help="marketplace or platform fee, %% of revenue (Amazon referral ~15, TikTok Shop and noon vary)")
+                   help="marketplace or platform fee, %% of revenue (Amazon referral ~15, TikTok Shop and noon vary). "
+                        "Amazon's referral fee already covers payment processing, so with it pass --payment-fee 0 --payment-fixed 0")
     p.add_argument("--payment-fee", type=float, default=2.9, help="payment processing, %% of revenue")
-    p.add_argument("--payment-fixed", type=float, default=0.30, help="fixed payment fee per order")
+    p.add_argument("--payment-fixed", type=float, default=0.30, help="fixed payment fee per order, in the same currency as --price (default is a US card rate)")
     p.add_argument("--returns", type=float, default=0.0, help="%% of orders refunded")
     p.add_argument("--other", type=float, default=0.0, help="other per-order costs: packaging, apps, agent fee")
     p.add_argument("--json", action="store_true", help="print JSON instead of text")
@@ -90,7 +91,7 @@ def main(argv=None):
         return
 
     print(f"Revenue per order:  {fmt(r['revenue'])}")
-    print(f"Landed cost:        {fmt(r['landed_cost'])}  (price is {fmt(r['price_to_landed'], 'x')} landed cost)")
+    print(f"Landed cost:        {fmt(r['landed_cost'])}  (revenue is {fmt(r['revenue_to_landed'], 'x')} landed cost)")
     print(f"Fees:               {fmt(r['fees'])}")
     print(f"Refund allowance:   {fmt(r['refund_loss'])}")
     print(f"Other costs:        {fmt(r['other'])}")

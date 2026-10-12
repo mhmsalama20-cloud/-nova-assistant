@@ -11,13 +11,21 @@ Reply in the user's language (Arabic if they write in Arabic). Keep product name
 
 ## Ground rules
 
+- **Check web access once, before discovery.** WebFetch one retail page (for example `https://www.amazon.com/gp/movers-and-shakers`). If it fails at the network level (a DNS error such as `ENOTFOUND`, or a proxy or tunnel error), the session's network blocks shopping sites. This is normal in Claude Code cloud sessions on the default network level. Treat every retail URL in `references/sources.md` as blocked for the rest of the session instead of trying them one by one, and tell the user in one line: run Claude Code on their own computer, or allow the shopping sites under the environment's Network access (https://code.claude.com/docs/en/cloud-environments#network-access). Then fall back, in this order, to connected MCP data tools (their traffic isn't subject to the session's network allowlist), WebSearch (cite each result URL and date), and user screenshots for the top 3 candidates at most. A page that loads but shows a captcha or login wall blocks that one site only, not the whole network.
 - **Never invent numbers.** Sales, search volume, prices, review counts and ad counts must come from a page or tool you actually read in this session. Put the source link next to each number, and the date you read it.
 - **Label estimates.** Anything you derive (monthly sales from BSR, margin from a guessed shipping cost) gets a ⚠️ and a one-line note on how you got it.
-- **Two signal types per product.** Don't call a product validated on one signal. Demand (trends, searches) plus proof of sales (best-seller lists, sold counts, long-running ads) is the minimum.
+- **Two signal types per product.** Don't call a product validated on one signal. Demand (trends, searches) plus proof of sales (best-seller lists, sold counts, long-running ads) is the minimum. A product without both is reported as "Unverified, watch list", not scored as validated.
+- **All profit math goes through the calculator.** Every net profit, margin, break-even CPA or ROAS you state, in the report or in any later what-if answer (new price, new CPA, another product), comes from running `python3 "${CLAUDE_SKILL_DIR}/scripts/profit.py"`, never from mental arithmetic.
 - **Say what you couldn't reach.** If a site blocks you or needs a login (TikTok Creative Center, Meta Ad Library and Google Trends often do), say so and ask the user for a screenshot or a pasted export instead of filling the gap.
 - **Prefer connected data tools.** If MCP tools for marketplace data are connected (for example Apify, Helium 10, Jungle Scout, Keepa or Google Trends tools), use them for hard numbers and use web pages for context.
 
 ## Workflow
+
+### 0. Pick the mode
+
+- A store URL: go to **Competitor store mode** below. Ask only for the target market if it's unclear.
+- One named product or product link: ask only for the target market and sales channel if they're missing (they set prices and fees), skip steps 2 and 3, run steps 4 to 6 for that product, and report one product card instead of the ranked table.
+- Anything else: the full workflow from step 1.
 
 ### 1. Brief
 
@@ -53,15 +61,17 @@ For each product gather:
 
 ### 5. Profit check
 
-Run the calculator for every finalist instead of doing margin math in your head:
+Run the calculator for every finalist:
 
 ```bash
-python3 .claude/skills/product-research/scripts/profit.py \
-  --price 39.99 --cost 8.50 --shipping 4.00 --cpa 12 \
-  --platform-fee 0 --payment-fee 2.9 --payment-fixed 0.30 --returns 5
+python3 "${CLAUDE_SKILL_DIR}/scripts/profit.py" \
+  --price <sell price> --cost <supplier unit cost> --shipping <shipping per order> --cpa <ad cost per sale> \
+  --platform-fee <channel fee %> --payment-fee <gateway %> --payment-fixed <gateway fixed fee> --returns <refund or COD-refusal %>
 ```
 
-Run `--help` for all options (marketplace referral fees, shipping charged to the customer, `--json`). Report net profit per order, margin, break-even CPA and break-even ROAS. If the CPA is a guess, run it at two or three values and show the range.
+Run `python3 "${CLAUDE_SKILL_DIR}/scripts/profit.py" --help` for all options (shipping charged to the customer, other per-order costs, `--json`). Report net profit per order, margin, break-even CPA and break-even ROAS.
+
+Fees and refund rates depend on the channel and country. The script's defaults (2.9% + 0.30 payment fee, 0% returns) assume a US card gateway; use the real gateway and marketplace fees for the target market. On Amazon, pass `--payment-fee 0 --payment-fixed 0`, because the referral fee already covers payment processing; for TikTok Shop and noon, check the seller fee page before adding a separate payment fee. If a value has no source (CPA, refund rate, shipping), mark it ⚠️ and run the calculator at a low and a high value to show the range.
 
 ### 6. Score and rank
 
