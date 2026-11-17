@@ -1,5 +1,15 @@
 # Organic Warfare — البرومبتات المستخدمة
 
+## V2: برومبتات الفيديو (wan3_0 / wan3_0_prime، start_image = الصورة المفتاحية، 1080p، enable_thinking)
+> القاعدة: **حركة وحدة بسيطة لكل لقطة**. منكتب: stabilized, no warping, natural motion، ومنوصف الصوت بالآخر.
+
+- **S1 الغابة:** "Smooth, slow, perfectly stabilized steadicam move forward along the forest path from the start image, gliding past the huge moss-covered pine trunks and revealing rich forest details: dewy ferns, thick moss on rocks, fog drifting…" ✅
+- **S2 الفطر:** "Very slow, smooth, stabilized macro push-in toward the white Lion's Mane mushroom… stays completely whole… dew drops glisten…" ✅
+- **S3 التايم لابس:** "Locked-off, completely static camera… years pass at extreme speed… mushroom stays perfectly still…" ⚠️ طلع بطيء وفيه برق بيضل واقف. سرّعناه 1.6x بالمونتاج. المرة الجاية: اطلب "very fast, dramatic changes every half second".
+- **S4 الجزمة:** "Static low ground-level camera… a heavy Viking boot… steps down firmly into the open mossy patch on the left side of the frame…" ✅
+- **S5a القطف (Prime):** "gently plucks the whole white Lion's Mane mushroom… lifts it up toward his face and examines it… camera slowly tilts up…" ✅ ممتازة
+- **S5b العضّة (Prime، من K4):** "slowly brings the whole mushroom up to his mouth and takes one firm, decisive bite… chews slowly… very slow push-in…" ⚠️ في ربع ثانية بتطلع أسنان غريبة لما يفتح تمه. المرة الجاية: "mouth stays mostly closed while chewing, no visible teeth".
+
 ## صورة المنتج (packshot) — gpt_image_2_6, 3:4, quality high, 2k, count 2
 **المراجع:** (1) `assets/product/ref_official_render_crop.png` للتصميم، و(2) `assets/product/ref_real_jar_in_hand_crop.png` للشكل الحقيقي الطويل.
 **النتيجة:** ✅ ممتازة، والكتابة صحيحة 100%.
