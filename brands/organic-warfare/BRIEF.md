@@ -7,7 +7,7 @@
 |---|---|
 | **الاسم الصحيح** | **Organic Warfare®** (مش "Warfire") |
 | **المنتج** | Powdered Mushroom Extract: خلطة **10 Exotic Mushrooms** |
-| **إنستغرام** | `@organicwarfare101` |
+| **إنستغرام** | `@organicwarfare101` أو `organicw4fare` (شوف قسم "حسابات إنستغرام") |
 | **المنشأ** | Product of Thailand 🇹🇭، وAustralian Owned 🇦🇺 |
 | **المؤسس** | Suhayl Omran، مقاتل **Muay Thai** (Founder · Fighter · Organic Warfare). أسسه لأنه بده شي طبيعي يخليه حاد وقوي وجاهز للنزال |
 | **دور محمد** | بيعمل ماركتينج للشركة. V1 هو أول فيديو بيعرضه عليهم عشان ياخد الشغل |
@@ -37,10 +37,25 @@ Focus & Mental Clarity، وNatural Energy & Stamina، وImmune Support، وFaste
 | Cordyceps Sinensis | التحمل والأداء العالي |
 
 ## شكل المنتج (العلبة)
-- **الحجم:** علبة صغيرة بحجم علبة دوا، **بتنمسك بكف الإيد** (شوف `assets/source/jar_in_hand_story.webp`).
-- **العلبة:** إزاز/بلاستيك **أسود** وغطا أسود.
-- **الملصق:** خلفية غامقة، **محارب ساموراي/أوني مقنّع بقرون** (ذهبي وعيون بنفسجية)، برق بنفسجي، فطر ملوّن على الجوانب. كلمة **ORGANIC WARFARE** بذهبي معدني، وتحتها **POWDERED MUSHROOM EXTRACT** و**★ 10 EXOTIC ★ MUSHROOMS**، وأيقونات POWER وRECOVERY، وتحت **NATURE'S ARMY. YOUR ADVANTAGE.**
-- ⏳ **ناقص:** صورة نظيفة للعلبة. محمد رح يبعت صورة علبة تانية بنفس الحجم، ومنحط عليها تصميم Organic Warfare.
+- **الحجم:** بحجم علبة أوميجا 3 من NOW (100 softgels)، يعني **تقريباً 10 سم طول × 5.5–6 سم عرض**، و**بتنمسك بكف الإيد**. صور مقارنة الحجم بـ `assets/source/size_reference_omega3/` والعلبة بالإيد بـ `assets/source/jar_in_hand_story.webp`.
+- **الشكل:** **أسطوانة طويلة بجدران مستقيمة**، طولها تقريباً ضعف عرضها. جسم **أسود لامع** وغطا أسود بنفس القطر. ⚠️ **مش علبة عريضة قصيرة** زي صورة الإنستغرام الرسمية.
+- **الوزن:** NET WT. 50g، وDIETARY SUPPLEMENT.
+- **الملصق الكامل** (من الصورة الرسمية `assets/source/jar_official_render_instagram.jpg`):
+  - فوق: **محارب ساموراي/أوني مقنّع بقرون** ذهبية وعيون بنفسجية، وبرق بنفسجي، وفطر ملوّن على الجانبين (فيه Lion's Mane أبيض عاليمين).
+  - **ORGANIC WARFARE** بحروف فضية معدنية، وتحتها **POWDERED MUSHROOM EXTRACT** و**★ 10 EXOTIC ★ MUSHROOMS**.
+  - 3 لوحات:
+    - **ENDURANCE**: Go further. Supports stamina, vitality and long-lasting energy.
+    - **POWER**: Unleash strength. Enhances physical performance, focus and drive.
+    - **RECOVERY**: Bounce back. Aids muscle recovery, reduces fatigue and restores balance.
+  - صف: **100% ORGANIC CERTIFIED MUSHROOMS**، و**NO FILLERS / NO ADDITIVES / PURE MUSHROOMS**، و**LAB TESTED FOR PURITY & POTENCY**.
+  - تحت: **★ NATURE'S ARMY. YOUR ADVANTAGE. ★**، وشارة **BACKED BY NATURE**.
+- ✅ **صور المنتج المعتمدة للإعلانات** (متولدة ومفحوصة، الكتابة صحيحة حرف حرف):
+  - `assets/product/jar_packshot_A_front_black_2k.png` ⭐ الأساسية (إضاءة ذهبية أقوى)
+  - `assets/product/jar_packshot_B_front_black_2k.png` بديلة
+
+## حسابات إنستغرام
+- `@organicwarfare101` (ظاهر بستوري العلبة).
+- `organicw4fare` (الحساب اللي عامل لايك على بوست المنتج الرسمي). ⏳ **لازم نتأكد من محمد شو الحساب الرسمي** قبل ما نحطه بالـ CTA.
 
 ## الشعار
 - رأس **تنين/أوني ذهبي** مزخرف بقرون ملتوية وشوارب زي المجسّات، فوق كلمة **ORGANIC WARFARE®** بحروف ذهبية معدنية عريضة، وتحتها **POWDERED MUSHROOM EXTRACTS** بين خطين ذهبيين.

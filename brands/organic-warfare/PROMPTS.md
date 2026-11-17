@@ -1,5 +1,18 @@
 # Organic Warfare — البرومبتات المستخدمة
 
+## صورة المنتج (packshot) — gpt_image_2_6, 3:4, quality high, 2k, count 2
+**المراجع:** (1) `assets/product/ref_official_render_crop.png` للتصميم، و(2) `assets/product/ref_real_jar_in_hand_crop.png` للشكل الحقيقي الطويل.
+**النتيجة:** ✅ ممتازة، والكتابة صحيحة 100%.
+```
+Photorealistic premium supplement product packshot of the Organic Warfare jar.
+
+SHAPE AND SIZE: copy the real jar in reference image 2 (held in a hand): a tall, straight-walled cylindrical jar, about twice as tall as it is wide, glossy black body with a black screw lid of the same diameter. Small, vitamin-bottle size that fits in one palm (about 10 cm tall, 5.5 cm wide). Do NOT make it a wide squat tub.
+
+LABEL: use the exact label artwork from reference image 1, wrapped around the cylinder and centered on the front, scaled to fit the narrower jar exactly like reference image 2: horned golden samurai/oni warrior mask with glowing purple eyes and purple lightning at the top, colorful exotic mushrooms on both sides (including a white Lion's Mane on the right), large metallic silver 'ORGANIC WARFARE' lettering, 'POWDERED MUSHROOM EXTRACT', '★ 10 EXOTIC ★ MUSHROOMS', then the 'POWER - UNLEASH STRENGTH' panel centered with the 'ENDURANCE' and 'RECOVERY' panels wrapping around the curved sides, a row with 'NO FILLERS / NO ADDITIVES / PURE MUSHROOMS', and at the bottom '★ NATURE'S ARMY. YOUR ADVANTAGE. ★' with the small 'BACKED BY NATURE' badge. Thin gold border lines like the reference. Spell every word exactly as in the reference.
+
+SCENE: straight front view, the jar standing upright, centered, on a glossy black surface with a soft reflection, pure black background. Dramatic studio lighting: soft top light, thin warm golden rim lights on both edges of the jar, a subtle highlight on the glossy lid. Label sharp, fully legible, realistic print texture. High-end commercial advertising photography, 100mm macro lens, ultra detailed. No hands, no extra objects, no extra text.
+```
+
 ## V1 (2026-11-17)
 
 ### صورة مرجعية للفايكنج — gpt_image_2_6, 9:16, count 2

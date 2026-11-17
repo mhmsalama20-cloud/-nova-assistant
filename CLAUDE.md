@@ -21,7 +21,7 @@
   - ⚠️ "Plus" هون هو اشتراك **Higgsfield**، مش اشتراك Claude. اشتراك Claude Code ما بيفتح موديلات Higgsfield.
 - الشغّال على Starter وجرّبناه:
   - **Wan 3.0** (`wan3_0`): فيديو لحد 30 ث، 1080p، صوت أصلي، image_references. تقريباً 3.5 كريدت/ثانية بـ 1080p.
-  - **GPT Image 2.6** (`gpt_image_2_6`): صور مفتاحية/مرجعية، تقريباً 0.25 كريدت للصورة.
+  - **GPT Image 2.6** (`gpt_image_2_6`): صور مفتاحية/مرجعية. الافتراضي quality=low و1k بـ 0.25 كريدت. **للصور المهمة: `quality: high` و`resolution: 2k` = 2.75 كريدت.** ممتاز بالكتابة على المنتجات.
   - **Mirelo SFX** (`mirelo_text_to_audio`): مؤثرات صوتية، تقريباً 1.25 كريدت.
   - **Upscale image** (bytedance): 2 كريدت.
 - الشبكة: السيرفرات `d8j0ntlcm91z4.cloudfront.net` (تحميل النتائج) و`upload.higgsfield.ai` (رفع الملفات) مضافين لبيئة "MH". بدونهم ما فيك تحمّل أو ترفع.
